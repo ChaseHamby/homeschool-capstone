@@ -2,16 +2,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Mock ups
 
-# Homepage
+### Homepage
 <img width="451" alt="screen shot 2019-01-16 at 9 12 53 pm" src="https://user-images.githubusercontent.com/16019344/51293965-8ebda600-19d6-11e9-9c13-e62b91086587.png">
 
-# Dropdowns 
+### Dropdowns 
 <img width="338" alt="screen shot 2019-01-14 at 8 14 18 pm" src="https://user-images.githubusercontent.com/16019344/51293961-8a918880-19d6-11e9-94e8-246693497d21.png">
 
-# Single Subject / Grade / Brand Page
+### Single Subject / Grade / Brand Page
 <img width="428" alt="screen shot 2019-01-16 at 9 09 07 pm" src="https://user-images.githubusercontent.com/16019344/51293963-8cf3e280-19d6-11e9-9af6-db5aa628353b.png">
 
-# My Cart (or My Books)
+### My Cart (or My Books)
 <img width="443" alt="screen shot 2019-01-16 at 9 33 28 pm" src="https://user-images.githubusercontent.com/16019344/51293968-90876980-19d6-11e9-8c8e-d7bd402ad28c.png">
 
 
