@@ -19,50 +19,41 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ```{
 	"book1": {
 		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
-		"url": "https://www.amazon.com/Saxon-Math-Homeschool-Complete-Kit/dp/156577020X
-    crid=1G5U851K5SHA0&keywords=saxon+math+3&qid=1547696536&sprefix=saxon+%2Caps%2C149&sr=8-1&ref=sr_1_1",
+		"url": "https://www.amazon.com/Saxon-Math-Homeschool-Complete-Kit/dp/156577020Xcrid=1G5U851K5SHA0&keywords=saxon+math+3&qid=1547696536&sprefix=saxon+%2Caps%2C149&sr=8-1&ref=sr_1_1",
 		"title": "Saxon Math 3",
 		"description": "This home study set includes a teacher's manual, a meeting book, and a student workbook with fact cards. Grade 3.",
 		"grade": "3"
 	},
 	"book2": {
 		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
-		"url": "https://www.amazon.com/Horizons-Math-SET-Student-Workbooks/dp/B0021KFRCI
-    crid=17L4ZA3P051J3&keywords=horizons+math+kindergarten&qid=1547697204&sprefix=horizons+%2Caps%2C149&sr=8-1&ref=sr_1_1",
+		"url": "https://www.amazon.com/Horizons-Math-SET-Student-Workbooks/dp/B0021KFRCIcrid=17L4ZA3P051J3&keywords=horizons+math+kindergarten&qid=1547697204&sprefix=horizons+%2Caps%2C149&sr=8-1&ref=sr_1_1",
 		"title": "Horizons Math K",
-		"description": "Horizons Math Kindergarten builds the foundation for the method of study that is used all the way through
-    the Horizons Math program.",
+		"description": "Horizons Math Kindergarten builds the foundation for the method of study that is used all the way through the Horizons Math program.",
 		"grade": "K"
 	},
 	"book3": {
 		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
-		"url": "https://www.christianbook.com/lifepac-science-grade-11-workbook/9781580957816/pd/20813
-    en=google&event=SHOP&kw=homeschool-60
-    80%7C20813&p=1179710&dv=c&gclid=EAIaIQobChMI6oi5o_bz3wIVjY7ICh1FBAJkEAQYASABEgJ1pPD_BwE",
+		"url": "https://www.christianbook.com/lifepac-science-grade-11-workbook/9781580957816/pd/20813en=google&event=SHOP&kw=homeschool-6080%7C20813&p=1179710&dv=c&gclid=EAIaIQobChMI6oi5o_bz3wIVjY7ICh1FBAJkEAQYASABEgJ1pPD_BwE",
 		"title": "Alpha Omega Chemistry Grade 11",
-		"description": "Grade 11 workbook set covers the concept of the introduction to chemistry, basic chemical units and gases
-    and moles, as well as atomic models, chemical formulas and chemical reactions.",
+		"description": "Grade 11 workbook set covers the concept of the introduction to chemistry, basic chemical units and gases and moles, as well as atomic models, chemical formulas and chemical reactions.",
 		"grade": "11"
 	},
 	"book4": {
 		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
 		"url": "https://www.bookshark.com/level-5/language-arts/keys-to-good-language-5",
 		"title": "Keys to Good Language Grade 5",
-		"description": "Includes text-workbook with separate pre- and post-test booklet designed to build competency in grammar,
-    usage, mechanics, and composition using content from across the curriculum: literature, science, health, hobbies and
-    history/geography.",
+		"description": "Includes text-workbook with separate pre- and post-test booklet designed to build competency in grammar, usage, mechanics, and composition using content from across the curriculum: literature, science, health, hobbies and history/geography.",
 		"grade": "5"
 	},
 	"book5": {
 		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
 		"url": "http://horrible-histories.co.uk/9781407178547/vicious-vikings",
 		"title": "Horrible Histories",
-		"description": "Readers can discover all the foul facts about the VICIOUS VIKINGS, discover Viking gods in wedding
-    dresses, corpses on trial and death by booby-trapped statues. With a bold new look, these bestselling titles are sure to
-    be a huge hit.",
+		"description": "Readers can discover all the foul facts about the VICIOUS VIKINGS, discover Viking gods in wedding dresses, corpses on trial and death by booby-trapped statues. With a bold new look, these bestselling titles are sure to be a huge hit.",
 		"grade": "7"
 	}
-} ```
+}
+ ```
 
 ## Available Scripts
 
