@@ -16,7 +16,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Database Example
 
-```{
+```
+{
 	"book1": {
 		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
 		"url": "https://www.amazon.com/Saxon-Math-Homeschool-Complete-Kit/dp/156577020Xcrid=1G5U851K5SHA0&keywords=saxon+math+3&qid=1547696536&sprefix=saxon+%2Caps%2C149&sr=8-1&ref=sr_1_1",
