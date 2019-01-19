@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Mock ups
 
 ### Homepage
-<img width="451" alt="screen shot 2019-01-16 at 9 12 53 pm" src="https://user-images.githubusercontent.com/16019344/51293965-8ebda600-19d6-11e9-9c13-e62b91086587.png">
+<img width="502" alt="screen shot 2019-01-19 at 9 11 34 am" src="https://user-images.githubusercontent.com/16019344/51428523-52529b80-1bca-11e9-935b-43062ea96295.png">
 
 ### Dropdowns 
 <img width="338" alt="screen shot 2019-01-14 at 8 14 18 pm" src="https://user-images.githubusercontent.com/16019344/51293961-8a918880-19d6-11e9-94e8-246693497d21.png">
