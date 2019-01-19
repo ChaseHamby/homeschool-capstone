@@ -6,22 +6,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 <img width="281" alt="screen shot 2019-01-19 at 11 51 09 am" src="https://user-images.githubusercontent.com/16019344/51430392-9781c800-1be0-11e9-8df7-67f191ba680d.png">
 
 ### Homepage
-<img width="501" alt="screen shot 2019-01-19 at 11 51 28 am" src="https://user-images.githubusercontent.com/16019344/51430396-9a7cb880-1be0-11e9-870b-0d307ca5d38d.png">
+<img width="505" alt="screen shot 2019-01-19 at 11 43 53 am" src="https://user-images.githubusercontent.com/16019344/51430386-73be8200-1be0-11e9-9ec2-933291303591.png">
 
 ### Child Profile Page
 <img width="506" alt="screen shot 2019-01-19 at 11 49 52 am" src="https://user-images.githubusercontent.com/16019344/51430387-7620dc00-1be0-11e9-92cf-34e067376634.png">
 
 ### Dropdowns 
-<img width="338" alt="screen shot 2019-01-14 at 8 14 18 pm" src="https://user-images.githubusercontent.com/16019344/51293961-8a918880-19d6-11e9-94e8-246693497d21.png">
+<img width="501" alt="screen shot 2019-01-19 at 11 51 28 am" src="https://user-images.githubusercontent.com/16019344/51430396-9a7cb880-1be0-11e9-870b-0d307ca5d38d.png">
 
-### Single Subject / Grade / Brand with My Books section on the right
-<img width="286" alt="screen shot 2019-01-19 at 9 20 00 am" src="https://user-images.githubusercontent.com/16019344/51428630-719df880-1bcb-11e9-9db1-96bc2d0cc149.png">
 
-### 2nd Idea: Single Subject / Grade / Brand Page
-<img width="428" alt="screen shot 2019-01-16 at 9 09 07 pm" src="https://user-images.githubusercontent.com/16019344/51293963-8cf3e280-19d6-11e9-9af6-db5aa628353b.png">
-
-### 2nd Idea: My Cart (or My Books)
-<img width="443" alt="screen shot 2019-01-16 at 9 33 28 pm" src="https://user-images.githubusercontent.com/16019344/51293968-90876980-19d6-11e9-8c8e-d7bd402ad28c.png">
 
 ## Database Example
 
