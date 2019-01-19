@@ -14,6 +14,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### Dropdowns 
 <img width="501" alt="screen shot 2019-01-19 at 11 51 28 am" src="https://user-images.githubusercontent.com/16019344/51430396-9a7cb880-1be0-11e9-870b-0d307ca5d38d.png">
 
+### Resources Page
+<img width="506" alt="screen shot 2019-01-19 at 11 40 51 am" src="https://user-images.githubusercontent.com/16019344/51430385-70c39180-1be0-11e9-91c2-613212cb6d85.png">
 
 
 ## Database Example
