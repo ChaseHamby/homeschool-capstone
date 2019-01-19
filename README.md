@@ -6,6 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 <img width="281" alt="screen shot 2019-01-19 at 11 51 09 am" src="https://user-images.githubusercontent.com/16019344/51430392-9781c800-1be0-11e9-8df7-67f191ba680d.png">
 
 ### Homepage
+<img width="501" alt="screen shot 2019-01-19 at 11 51 28 am" src="https://user-images.githubusercontent.com/16019344/51430396-9a7cb880-1be0-11e9-870b-0d307ca5d38d.png">
+
+### Child Profile Page
 <img width="506" alt="screen shot 2019-01-19 at 11 49 52 am" src="https://user-images.githubusercontent.com/16019344/51430387-7620dc00-1be0-11e9-92cf-34e067376634.png">
 
 ### Dropdowns 
