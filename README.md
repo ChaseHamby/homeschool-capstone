@@ -27,6 +27,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 		"title": "Saxon Math 3",
 		"quantity": "1",
 		"description": "This home study set includes a teacher's manual, a meeting book, and a student workbook with fact cards. Grade 3.",
+		"subject": "Math",
 		"grade": "3",
 		"brand": "Saxon"
 	},
@@ -36,6 +37,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 		"title": "Horizons Math K",
 		"quantity": "1",
 		"description": "Horizons Math Kindergarten builds the foundation for the method of study that is used all the way through the Horizons Math program.",
+		"subject": "Math",
 		"grade": "K",
 		"brand": "Horizons"
 	},
@@ -45,6 +47,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 		"title": "Alpha Omega Chemistry Grade 11",
 		"quantity": "1",
 		"description": "Grade 11 workbook set covers the concept of the introduction to chemistry, basic chemical units and gases and moles, as well as atomic models, chemical formulas and chemical reactions.",
+		"subject": "Science",
 		"grade": "11",
 		"brand": "Alpha & Omega"
 	},
@@ -54,6 +57,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 		"title": "Keys to Good Language Grade 5",
 		"quantity": "1",
 		"description": "Includes text-workbook with separate pre- and post-test booklet designed to build competency in grammar, usage, mechanics, and composition using content from across the curriculum: literature, science, health, hobbies and history/geography.",
+		"subject": "Language Arts",
 		"grade": "5",
 		"brand": "Bookshark"
 	},
@@ -63,6 +67,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 		"title": "Horrible Histories",
 		"quantity": "1",
 		"description": "Readers can discover all the foul facts about the VICIOUS VIKINGS, discover Viking gods in wedding dresses, corpses on trial and death by booby-trapped statues. With a bold new look, these bestselling titles are sure to be a huge hit.",
+		"subject": "History",
 		"grade": "7",
 		"brand": "Horrible Histories"
 	}
