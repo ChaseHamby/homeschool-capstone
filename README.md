@@ -8,13 +8,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### Dropdowns 
 <img width="338" alt="screen shot 2019-01-14 at 8 14 18 pm" src="https://user-images.githubusercontent.com/16019344/51293961-8a918880-19d6-11e9-94e8-246693497d21.png">
 
-### Single Subject / Grade / Brand Page
+### Single Subject / Grade / Brand with My Books section on the right
+<img width="286" alt="screen shot 2019-01-19 at 9 20 00 am" src="https://user-images.githubusercontent.com/16019344/51428630-719df880-1bcb-11e9-9db1-96bc2d0cc149.png">
+
+### 2nd Idea: Single Subject / Grade / Brand Page
 <img width="428" alt="screen shot 2019-01-16 at 9 09 07 pm" src="https://user-images.githubusercontent.com/16019344/51293963-8cf3e280-19d6-11e9-9af6-db5aa628353b.png">
 
-### OR Single Subject / Grade / Brand with My Books section on the right
-<img width="434" alt="screen shot 2019-01-17 at 8 45 23 pm" src="https://user-images.githubusercontent.com/16019344/51362388-f9371a80-1a98-11e9-9162-83a3f72b6370.png">
-
-### Optional: My Cart (or My Books)
+### 2nd Idea: My Cart (or My Books)
 <img width="443" alt="screen shot 2019-01-16 at 9 33 28 pm" src="https://user-images.githubusercontent.com/16019344/51293968-90876980-19d6-11e9-8c8e-d7bd402ad28c.png">
 
 ## Database Example
