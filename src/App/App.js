@@ -8,6 +8,8 @@ import connection from '../helpers/data/connection';
 import Auth from '../components/pages/Auth/auth';
 import Home from '../components/pages/Home/home';
 import HomeNavbar from '../components/HomeNavbar/homeNavbar';
+import ChildProfile from '../components/pages/ChildProfile/childProfile';
+import Resources from '../components/pages/Resources/resources';
 import authRequests from '../helpers/data/authRequests';
 import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -73,6 +75,8 @@ class App extends React.Component {
               <Switch>
                 <PrivateRoute path='/' exact component={Home} authed={this.state.authed} />
                 <PrivateRoute path='/home' component={Home} authed={this.state.authed} />
+                <PrivateRoute path='/childProfile' component={ChildProfile} authed={this.state.authed} />
+                <PrivateRoute path='/resources' component={Resources} authed={this.state.authed} />
                 <PublicRoute path='/auth' component={Auth} authed={this.state.authed} />
               </Switch>
             </div>
