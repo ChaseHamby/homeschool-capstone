@@ -17,7 +17,6 @@ class ChildProfileForm extends React.Component {
     };
     childRequests.postRequest(newChild)
       .then(() => {
-        console.log(newChild);
         this.props.displayChildren();
       }).catch(err => console.error('err posting article', err));
   };
