@@ -9,8 +9,8 @@ class Resource extends React.Component {
       <div class="container py-3">
       <div class="card">
         <div class="row">
-        <div class="col-md-4">
-            <img src={this.props.image} class="w-100 h-100"></img>
+        <div class="col-md-4 rounded">
+            <img src={this.props.image} class="img w-100 h-100"></img>
             </div>
             <div class="col-md-8 p-3">
               <div class="card-block px-3">
