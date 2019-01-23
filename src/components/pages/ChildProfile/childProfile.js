@@ -30,7 +30,9 @@ class ChildProfile extends React.Component {
   render() {
     return (
       <div className="Resources">
-        <div className="builder">{this.displayResources}</div>
+        <div className="builder">
+        <ChildProfileForm />
+        </div>
         <div className="childProfileForm">
         </div>
       </div>
