@@ -1,50 +1,73 @@
 import React from 'react';
 import 'firebase/auth';
 import './childProfileForm.scss';
-import resourceRequests from '../../../helpers/data/resourceRequests';
 import authRequests from '../../../helpers/data/authRequests';
+import childRequests from '../../../helpers/data/childRequests';
 
 class ChildProfileForm extends React.Component {
+  addChildren = (e) => {
+    e.preventDefault();
+    const newChild = {
+      firstName: document.getElementById('first_name').value,
+      lastName: document.getElementById('last_name').value,
+      email: document.getElementById('email').value,
+      age: document.getElementById('age').value,
+      grade: document.getElementById('grade').value,
+      uid: authRequests.getCurrentUid(),
+    };
+    childRequests.postRequest(newChild)
+      .then(() => {
+        console.log(newChild);
+        this.props.displayChildren();
+      }).catch(err => console.error('err posting article', err));
+  };
+
   render() {
     return (
-        <form class="form" action="##" method="post" id="registrationForm">
-            <div class="form-group">
-                
-                <div class="col-xs-6">
-                    <label for="first_name"><h4>Child's First name</h4></label>
-                    <input type="text" class="form-control" name="first_name" id="first_name" placeholder="first name" title="enter your first name if any."></input>
+        <form className="form" id="registrationForm">
+            <div className="form-group d-flex justify-content-end mt-3">
+                <div className="col-md-6">
+                    <label htmlFor="first_name"><h5>Child's First name</h5></label>
+                    <input type="text" className="form-control" name="first_name" id="first_name" placeholder="first name"></input>
                 </div>
             </div>
-            <div class="form-group">
+            <div className="form-group d-flex justify-content-end">
                 
-                <div class="col-xs-6">
-                  <label for="last_name"><h4>Child's Last name</h4></label>
-                    <input type="text" class="form-control" name="last_name" id="last_name" placeholder="last name" title="enter your last name if any."></input>
+                <div className="col-md-6">
+                  <label htmlFor="last_name"><h5>Child's Last name</h5></label>
+                    <input type="text" className="form-control" name="last_name" id="last_name" placeholder="last name"></input>
                 </div>
             </div>
-            <div class="form-group">
+            <div className="form-group d-flex justify-content-end">
                 
-                <div class="col-xs-6">
-                    <label for="email"><h4>Parent Email</h4></label>
-                    <input type="email" class="form-control" name="email" id="email" placeholder="you@email.com" title="enter your email."></input>
+                <div className="col-md-6">
+                    <label htmlFor="email"><h5>Parent Email</h5></label>
+                    <input type="email" className="form-control" name="email" id="email" placeholder="you@email.com"></input>
                 </div>
             </div>
-            <div class="form-group">
+            <div className="form-group d-flex justify-content-end">
                 
-                <div class="col-xs-6">
-                    <label for="email"><h4>Location</h4></label>
-                    <input type="email" class="form-control" id="location" placeholder="somewhere" title="enter a location"></input>
+                <div className="col-md-6">
+                  <label htmlFor="age"><h5>Child's Age</h5></label>
+                    <input type="text" className="form-control" name="age" id="age" placeholder="5"></input>
                 </div>
             </div>
-            <div class="form-group">
-                  <div class="col-xs-12">
-                      <button class="btn btn-lg btn-success pull-right" type="submit"><i class="glyphicon glyphicon-ok-sign"></i> Save</button>
-                      <button class="btn btn-lg" type="reset"><i class="glyphicon glyphicon-repeat"></i> Reset</button>
+            <div className="form-group d-flex justify-content-end">
+                
+                <div className="col-md-6">
+                  <label htmlFor="grade"><h5>Child's Grade</h5></label>
+                    <input type="text" className="form-control" name="grade" id="grade" placeholder="kindergarten"></input>
+                </div>
+            </div>
+            <div className="form-group4">
+                  <div className="col-md-12">
+                      <button className="btn btn-lg btn-success pull-right mr-1" type="submit" onClick={this.addChildren}><i className="glyphicon glyphicon-ok-sign"></i> Save Profile</button>
+                      <button className="btn btn-lg btn-primary ml-1" type="reset"><i className="glyphicon glyphicon-repeat"></i> Reset</button>
                   </div>
             </div>
       </form>
-      );
-    }
+    );
   }
+}
 
 export default ChildProfileForm;
