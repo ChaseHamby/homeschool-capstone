@@ -1,0 +1,26 @@
+{
+	"child1": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "firstName":"Chase",
+    "lastName": "Hamby",
+		"email": "c.chase.hamby@gmail.com",
+		"age": "9",
+		"grade": "3rd"
+  },
+  "child2": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "firstName":"Leo",
+    "lastName": "Hamby",
+		"email": "c.chase.hamby@gmail.com",
+		"age": "5",
+		"grade": "Kindergarten"
+  },
+  "child3": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "firstName":"Saul",
+    "lastName": "Hamby",
+		"email": "c.chase.hamby@gmail.com",
+		"age": "5",
+		"grade": "Kindergarten"
+  }
+}

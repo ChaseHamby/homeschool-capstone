@@ -20,7 +20,7 @@ class Resource extends React.Component {
                 <p class="card-text"><b>Grade: {this.props.grade}</b></p>
                 <p class="card-text"><b>Brand: {this.props.brand}</b></p>
                 <p class="card-text"><b>Quantity: {this.props.quantity}</b></p>
-                <a href={this.props.url} class="btn btn-primary">Learn More</a>
+                <a href={this.props.url} class="thisBtn btn btn-primary">Learn More</a>
               </div>
             </div>
           </div>

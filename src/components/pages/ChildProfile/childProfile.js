@@ -1,38 +1,54 @@
 import React from 'react';
 import 'firebase/auth';
 import './childProfile.scss';
-import resourceRequests from '../../../helpers/data/resourceRequests';
+import childRequests from '../../../helpers/data/childRequests';
 import authRequests from '../../../helpers/data/authRequests';
 import ChildProfileForm from '../ChildProfileForm/childProfileForm';
+import Child from '../Child/child';
 
 class ChildProfile extends React.Component {
   state = {
-    resources: [],
+    child: [],
   }
 
-  displayResources = () => {
+  displayChildren = () => {
     const uid = authRequests.getCurrentUid();
-    resourceRequests.getAllResources(uid)
+    childRequests.getAllChildren(uid)
       .then((data) => {
-        console.log(data);
-        this.setState({ resources: data });
+        this.setState({ child: data });
       }).catch(err => console.error('error getting data', err));
   }
 
-  updateResources = () => {
-    this.displayResources();
+  updateChildren = () => {
+    this.displayChildren();
   }
 
   componentDidMount() {
-    this.displayResources();
+    this.displayChildren();
   }
 
   render() {
+    const childBuilder = this.state.child.map((child) => {
+      return (<Child
+        id={child.id}
+        key={child.id}
+        uid={child.uid}
+        firstName={child.firstName}
+        lastName={child.lastName}
+        email={child.email}
+        age={child.age}
+        grade={child.grade}
+        updateChildren={this.updateChildren}
+      />);
+    });
     return (
-      <div className="Resources">
-        <div className="builder">{this.displayResources}</div>
+      <div className="ChildProfile">
         <div className="childProfileForm">
+        <ChildProfileForm
+        displayChildren={this.displayChildren}
+        />
         </div>
+        <div className="builder">{childBuilder}</div>
       </div>
     );
   }
