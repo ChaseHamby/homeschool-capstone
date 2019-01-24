@@ -1,19 +1,15 @@
 .form {
-  margin-top: 50px;
+  margin-top: 120px;
+  margin-bottom: 100px;
 }
 
 .formies {
-  margin-top: 15px;
   background-color: aliceblue;
   opacity: .88;
-  margin-left: 10%;
-  width: 80%;
+  width: 50%;
+  height: 40%;
   border-radius: 20px;
-}
-
-.form-group-buttons {
-  margin-top: -35px;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .form-control {
@@ -25,7 +21,7 @@
   resize: horizontal;
 }
 
-h5 {
+h5, h2 {
   margin-top: 10px;
   color: rgb(61, 18, 18)
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import './home.scss';
 import profileButton from '../../../images/createChild.png';
-import continueButton from '../../../images/continue.png';
+import continueButton from '../../../images/outside.jpg';
 
 class Home extends React.Component {
   changeView = (e) => {
@@ -11,11 +11,11 @@ class Home extends React.Component {
 
   render() {
     return (
-      <div className='Home mx-auto'>
-        <div className='homePage'>
+      <div className='mainHome' height='100%'>
+        <div className='homePage d-flex justify-content-around'>
           <div className="profileBtn">
           <button className='btn btn-light' id='childProfile' onClick={this.changeView}>
-            <img src={profileButton} alt="create child profile button"/>
+            <img src="https://firebasestorage.googleapis.com/v0/b/homeschool-capstone.appspot.com/o/LEOSAUL.jpg?alt=media&token=ac5f002f-383d-430c-a15c-f8173ef2097c" alt="create child profile button"/>
           </button>
           </div>
           <div className="continueBtn">
