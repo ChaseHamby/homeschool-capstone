@@ -14,6 +14,26 @@ class Child extends React.Component {
         .catch(err => console.error('error with single delete', err));
     };
 
+    const editChild = (e) => {
+      e.preventDefault();
+      this.props.editing(this.props.id);
+      document.getElementById('first_name').value = this.props.firstName;
+      document.getElementById('last_name').value = this.props.lastName;
+      document.getElementById('email').value = this.props.email;
+      document.getElementById('age').value = this.props.age;
+      document.getElementById('grade').value = this.props.grade;
+    };
+
+    const showEditButton = () => {
+      if (this.props.uid === myUid) {
+        return (
+          <div>
+            <button className="editButton" onClick={editChild}><i class="fas fa-marker fa-2x"></i></button>
+          </div>
+        );
+      }
+    };
+
     const showDeleteButton = () => {
       if (this.props.uid === myUid) {
         return (
@@ -37,7 +57,11 @@ class Child extends React.Component {
                 <p className="card-text">{this.props.email}</p>
                 <p className="card-text"><b>Subject: {this.props.age}</b></p>
                 <p className="card-text"><b>Grade: {this.props.grade}</b></p>
+                <div className="datButtonz d-flex justify-content-around row datButtonz">
+                <div className="d-flex justify-content-center">{showEditButton()}</div>
                 <div className="d-flex justify-content-center">{showDeleteButton()}</div>
+                <div className="d-flex justify-content-center select" id='resources' onClick={this.props.changeView}><i class="fas fa-check-circle fa-2x"></i></div>
+                </div>
               </div>
             </div>
           </div>

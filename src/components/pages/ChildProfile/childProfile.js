@@ -1,6 +1,7 @@
 import React from 'react';
 import 'firebase/auth';
 import './childProfile.scss';
+import PropTypes from 'prop-types';
 import childRequests from '../../../helpers/data/childRequests';
 import authRequests from '../../../helpers/data/authRequests';
 import ChildProfileForm from '../ChildProfileForm/childProfileForm';
@@ -9,6 +10,8 @@ import Child from '../Child/child';
 class ChildProfile extends React.Component {
   state = {
     child: [],
+    isEditing: false,
+    childId: '',
   }
 
   displayChildren = () => {
@@ -19,8 +22,17 @@ class ChildProfile extends React.Component {
       }).catch(err => console.error('error getting data', err));
   }
 
+  editing = (currentId) => {
+    this.setState({ isEditing: true, childId: currentId });
+  }
+
   updateChildren = () => {
     this.displayChildren();
+  }
+
+  changeView = (e) => {
+    const view = e.currentTarget.id;
+    this.props.history.push(`/${view}`);
   }
 
   componentDidMount() {
@@ -40,6 +52,8 @@ class ChildProfile extends React.Component {
         age={child.age}
         grade={child.grade}
         updateChildren={this.updateChildren}
+        editing={this.editing}
+        changeView={this.changeView}
       />);
     });
     return (
@@ -47,6 +61,8 @@ class ChildProfile extends React.Component {
         <div className="childProfileForm">
         <ChildProfileForm
         displayChildren={this.displayChildren}
+        isEditing={this.state.isEditing}
+        childId={this.state.childId}
         />
         </div>
         <h1 className="d-flex justify-content-center px-3">Current Profiles</h1>
