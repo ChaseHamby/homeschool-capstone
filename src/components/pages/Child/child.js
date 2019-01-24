@@ -28,6 +28,9 @@ class Child extends React.Component {
       <div className="container py-3">
       <div className="card">
         <div className="row">
+        <div class="col-md-4 rounded">
+            <img src={this.props.image} class="img w-100 h-100"></img>
+            </div>
             <div className="col-md-8 p-3">
               <div className="card-block px-3">
                 <h4 className="card-title">{this.props.firstName} {this.props.lastName}</h4>

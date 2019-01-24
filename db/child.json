@@ -2,7 +2,8 @@
 	"child1": {
 		"uid": "3HhcnM3epWT4RealFspbj5XpyJY2",
     "firstName":"Chase",
-    "lastName": "Hamby",
+		"lastName": "Hamby",
+		"image": "https://firebasestorage.googleapis.com/v0/b/homeschool-capstone.appspot.com/o/CAROL.jpg?alt=media&token=958d7441-67f7-4f2d-aa21-9764e8420d47",
 		"email": "c.chase.hamby@gmail.com",
 		"age": "9",
 		"grade": "3rd"
@@ -10,7 +11,8 @@
   "child2": {
 		"uid": "3HhcnM3epWT4RealFspbj5XpyJY2",
     "firstName":"Leo",
-    "lastName": "Hamby",
+		"lastName": "Hamby",
+		"image": "https://firebasestorage.googleapis.com/v0/b/homeschool-capstone.appspot.com/o/LEO.jpg?alt=media&token=88c86e31-6f29-48fc-94a4-c062ce423982",
 		"email": "c.chase.hamby@gmail.com",
 		"age": "5",
 		"grade": "Kindergarten"
@@ -18,7 +20,8 @@
   "child3": {
 		"uid": "3HhcnM3epWT4RealFspbj5XpyJY2",
     "firstName":"Saul",
-    "lastName": "Hamby",
+		"lastName": "Hamby",
+		"image": "https://firebasestorage.googleapis.com/v0/b/homeschool-capstone.appspot.com/o/SAUL.jpg?alt=media&token=8352318b-9860-45bb-b35c-5e660c875350",
 		"email": "c.chase.hamby@gmail.com",
 		"age": "5",
 		"grade": "Kindergarten"
