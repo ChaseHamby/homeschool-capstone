@@ -24,6 +24,7 @@ class ChildProfileForm extends React.Component {
   render() {
     return (
         <form className="form" id="registrationForm">
+            <div className="formies"><h2>Create Profile</h2>
             <div className="form-group d-flex justify-content-end mt-3">
                 <div className="col-md-6">
                     <label htmlFor="first_name"><h5>Child's First name</h5></label>
@@ -58,11 +59,12 @@ class ChildProfileForm extends React.Component {
                     <input type="text" className="form-control" name="grade" id="grade" placeholder="kindergarten"></input>
                 </div>
             </div>
-            <div className="form-group4">
+            <div className="form-group-buttons">
                   <div className="col-md-12">
                       <button className="btn btn-lg btn-success pull-right mr-1" type="submit" onClick={this.addChildren}><i className="glyphicon glyphicon-ok-sign"></i> Save Profile</button>
                       <button className="btn btn-lg btn-primary ml-1" type="reset"><i className="glyphicon glyphicon-repeat"></i> Reset</button>
                   </div>
+                </div>
             </div>
       </form>
     );

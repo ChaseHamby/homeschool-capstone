@@ -1,8 +1,17 @@
 .ChildProfile {
-  // background-image: url("https://wyp.org/wp-content/uploads/2013/06/RiverExploring.jpg");
+  background-image: url("https://wyp.org/wp-content/uploads/2013/06/RiverExploring.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
-  height: 100%; 
+	height: 100%; 
+	margin-top: -50px;
+}
+
+h1 {
+	background-color: aliceblue;
+	opacity: .8;
+	width: 50%;
+	border-radius: 20px;
+	margin-left: 380px;
 }

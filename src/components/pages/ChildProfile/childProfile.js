@@ -33,6 +33,7 @@ class ChildProfile extends React.Component {
         id={child.id}
         key={child.id}
         uid={child.uid}
+        image={child.image}
         firstName={child.firstName}
         lastName={child.lastName}
         email={child.email}
@@ -42,12 +43,13 @@ class ChildProfile extends React.Component {
       />);
     });
     return (
-      <div className="ChildProfile">
+      <div className="ChildProfile"><h4>Current Profiles</h4>
         <div className="childProfileForm">
         <ChildProfileForm
         displayChildren={this.displayChildren}
         />
         </div>
+        <h1 className="d-flex justify-content-center px-3">Current Profiles</h1>
         <div className="builder">{childBuilder}</div>
       </div>
     );
