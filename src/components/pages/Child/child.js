@@ -60,7 +60,7 @@ class Child extends React.Component {
                 <div className="datButtonz d-flex justify-content-around row datButtonz">
                 <div className="d-flex justify-content-center">{showEditButton()}</div>
                 <div className="d-flex justify-content-center">{showDeleteButton()}</div>
-                <div className="d-flex justify-content-center select" id='resources' onClick={this.props.changeView}><i className="fas fa-check-circle fa-2x"></i></div>
+                <a className="d-flex justify-content-center select" id='resources' href={'/resources'}><i className="fas fa-check-circle fa-2x"></i></a>
                 </div>
               </div>
             </div>
