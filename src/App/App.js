@@ -62,7 +62,7 @@ class App extends React.Component {
       authRequests.logoutUser();
       this.setState({ authed: false });
     };
-
+    
     if (pendingUser) {
       return null;
     }

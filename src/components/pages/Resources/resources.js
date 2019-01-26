@@ -50,6 +50,7 @@ class Resources extends React.Component {
         <MainNavbar
         authed={this.props.authed}
         logoutClickEvent={this.props.logoutClickEvent}
+        changeview={this.props.changeview}
         />
         <div className="builder">{resourceBuilder}</div>
         <div className="resourceArea">

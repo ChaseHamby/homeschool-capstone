@@ -18,10 +18,10 @@ import {
 import './mainNavbar.scss';
 
 class MainNavbar extends React.Component {
-  static propTypes = {
-    authed: PropTypes.bool,
-    logoutClickEvent: PropTypes.func,
-  }
+  // static propTypes = {
+  //   authed: PropTypes.bool,
+  //   logoutClickEvent: PropTypes.func,
+  // }
 
   constructor(props) {
     super(props);

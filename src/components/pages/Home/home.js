@@ -5,6 +5,10 @@ import continueButton from '../../../images/outside.jpg';
 import HomeNavbar from '../../HomeNavbar/homeNavbar';
 
 class Home extends React.Component {
+  state = {
+    authed: true,
+  }
+
   changeView = (e) => {
     const view = e.currentTarget.id;
     this.props.history.push(`/${view}`);
