@@ -14,6 +14,7 @@ import {
   DropdownMenu,
   DropdownItem,
   Button,
+  UncontrolledDropdown,
 } from 'reactstrap';
 import './mainNavbar.scss';
 
@@ -51,7 +52,7 @@ class MainNavbar extends React.Component {
         return (
           <Nav className="ml-auto" navbar>
           <Button className="viewProfiles" color="warning" id="childProfile" onClick={this.changeView}>View Profiles</Button>
-          <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
+          <UncontrolledDropdown>
             <DropdownToggle caret>
             Shop By Subject
             </DropdownToggle>
@@ -62,8 +63,8 @@ class MainNavbar extends React.Component {
               <DropdownItem>History</DropdownItem>
               <DropdownItem>Art</DropdownItem>
             </DropdownMenu>
-          </Dropdown>
-          <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
+          </UncontrolledDropdown>
+          <UncontrolledDropdown>
             <DropdownToggle caret>
             Shop By Grade
             </DropdownToggle>
@@ -75,8 +76,8 @@ class MainNavbar extends React.Component {
               <DropdownItem>Grades 7-8</DropdownItem>
               <DropdownItem>High School</DropdownItem>
             </DropdownMenu>
-          </Dropdown>
-          <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
+          </UncontrolledDropdown>
+          <UncontrolledDropdown>
             <DropdownToggle caret>
             Shop By Brand
             </DropdownToggle>
@@ -88,7 +89,7 @@ class MainNavbar extends React.Component {
               <DropdownItem>Scholastic</DropdownItem>
               <DropdownItem>Kumon</DropdownItem>
             </DropdownMenu>
-          </Dropdown>
+          </UncontrolledDropdown>
             <NavItem>
               <NavLink className='logoutButton' onClick={logoutClickEvent}>Logout</NavLink>
             </NavItem>
