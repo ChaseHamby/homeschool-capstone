@@ -28,7 +28,7 @@ class Child extends React.Component {
       if (this.props.uid === myUid) {
         return (
           <div>
-            <button className="editButton" onClick={editChild}><i class="fas fa-marker fa-2x"></i></button>
+            <button className="editButton" onClick={editChild}><i className="fas fa-marker fa-2x"></i></button>
           </div>
         );
       }
@@ -48,8 +48,8 @@ class Child extends React.Component {
       <div className="container py-3">
       <div className="card">
         <div className="row">
-        <div class="col-md-4 rounded">
-            <img src={this.props.image} class="img w-100 h-100"></img>
+        <div className="col-md-4 rounded">
+            <img src={this.props.image} className="img w-100 h-100"></img>
             </div>
             <div className="col-md-8 p-3">
               <div className="card-block px-3">
@@ -60,7 +60,7 @@ class Child extends React.Component {
                 <div className="datButtonz d-flex justify-content-around row datButtonz">
                 <div className="d-flex justify-content-center">{showEditButton()}</div>
                 <div className="d-flex justify-content-center">{showDeleteButton()}</div>
-                <div className="d-flex justify-content-center select" id='resources' onClick={this.props.changeView}><i class="fas fa-check-circle fa-2x"></i></div>
+                <div className="d-flex justify-content-center select" id='resources' onClick={this.props.changeView}><i className="fas fa-check-circle fa-2x"></i></div>
                 </div>
               </div>
             </div>

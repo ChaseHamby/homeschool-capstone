@@ -20,6 +20,7 @@ class HomeNavbar extends React.Component {
   
   state = {
     isOpen: false,
+    authed: true,
   };
 
   toggle() {
@@ -29,9 +30,9 @@ class HomeNavbar extends React.Component {
   }
 
   render() {
-    const { isAuthed, logoutClickEvent } = this.props; // equivalent of isAuthed = this.props.isAuthed
+    const { logoutClickEvent } = this.props; // equivalent of isAuthed = this.props.isAuthed
     const buildNavbar = () => {
-      if (isAuthed) {
+      if (this.state.authed) {
         return (
           <Nav className="ml-auto" navbar>
             <NavItem>
