@@ -2,8 +2,13 @@ import React from 'react';
 import './home.scss';
 import profileButton from '../../../images/createChild.png';
 import continueButton from '../../../images/outside.jpg';
+import HomeNavbar from '../../HomeNavbar/homeNavbar';
 
 class Home extends React.Component {
+  state = {
+    authed: true,
+  }
+
   changeView = (e) => {
     const view = e.currentTarget.id;
     this.props.history.push(`/${view}`);
@@ -12,6 +17,10 @@ class Home extends React.Component {
   render() {
     return (
       <div className='mainHome' height='100%'>
+      <HomeNavbar
+      authed={this.props.authed}
+      logoutClickEvent={this.props.logoutClickEvent}
+      />
         <div className='homePage d-flex justify-content-around'>
           <div className="profileBtn">
           <button className='btn btn-light' id='childProfile' onClick={this.changeView}>

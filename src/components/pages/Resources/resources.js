@@ -4,6 +4,7 @@ import './resources.scss';
 import resourceRequests from '../../../helpers/data/resourceRequests';
 import authRequests from '../../../helpers/data/authRequests';
 import Resource from '../Resource/resource';
+import MainNavbar from '../../MainNavbar/mainNavbar';
 
 class Resources extends React.Component {
   state = {
@@ -46,6 +47,11 @@ class Resources extends React.Component {
     });
     return (
       <div className="Resources">
+        <MainNavbar
+        authed={this.props.authed}
+        logoutClickEvent={this.props.logoutClickEvent}
+        changeview={this.props.changeview}
+        />
         <div className="builder">{resourceBuilder}</div>
         <div className="resourceArea">
         </div>

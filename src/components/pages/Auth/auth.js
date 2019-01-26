@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import authRequests from '../../../helpers/data/authRequests';
 import './auth.scss';
 import googleButton from '../../../images/login-google.png';
+import HomeNavbar from '../../HomeNavbar/homeNavbar';
 
 class Auth extends React.Component {
   authenticateUser = (e) => {
@@ -15,7 +16,8 @@ class Auth extends React.Component {
   render() {
     return (
       <div className='Auth'>
-        <button className='btn btn-danger' onClick={this.authenticateUser}>
+      <HomeNavbar />
+        <button className='authBtn btn btn-danger' onClick={this.authenticateUser}>
           <img src={googleButton} alt="google login button"/>
         </button>
       </div>

@@ -7,12 +7,13 @@ import {
 import connection from '../helpers/data/connection';
 import Auth from '../components/pages/Auth/auth';
 import Home from '../components/pages/Home/home';
-import HomeNavbar from '../components/HomeNavbar/homeNavbar';
+// import HomeNavbar from '../components/HomeNavbar/homeNavbar';
 import ChildProfile from '../components/pages/ChildProfile/childProfile';
 import Resources from '../components/pages/Resources/resources';
 import authRequests from '../helpers/data/authRequests';
 import './App.scss';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+import Test from '../components/pages/test';
 
 const PublicRoute = ({ component: Component, authed, ...rest }) => {
   const routeChecker = props => (authed === false
@@ -56,7 +57,7 @@ class App extends React.Component {
   }
 
   render() {
-    const { authed, pendingUser } = this.state;
+    const { pendingUser } = this.state;
     const logoutClickEvent = () => {
       authRequests.logoutUser();
       this.setState({ authed: false });
@@ -70,14 +71,14 @@ class App extends React.Component {
       <div className="App">
         <BrowserRouter>
           <React.Fragment>
-            <HomeNavbar isAuthed={authed} logoutClickEvent={logoutClickEvent}/>
             <div className="appContainer">
               <Switch>
                 <PrivateRoute path='/' exact component={Home} authed={this.state.authed} />
-                <PrivateRoute path='/home' component={Home} authed={this.state.authed} />
-                <PrivateRoute path='/childProfile' component={ChildProfile} authed={this.state.authed} />
-                <PrivateRoute path='/resources' component={Resources} authed={this.state.authed} />
-                <PublicRoute path='/auth' component={Auth} authed={this.state.authed} />
+                <PrivateRoute path='/home' component={() => <Home logoutClickEvent={logoutClickEvent} />} authed={this.state.authed} />
+                <PrivateRoute path='/childProfile' component={() => <ChildProfile logoutClickEvent={logoutClickEvent} />} authed={this.state.authed} />
+                <PrivateRoute path='/resources' component={() => <Resources logoutClickEvent={logoutClickEvent} />} authed={this.state.authed} />
+                <PublicRoute path='/auth' component={Auth} authed={this.state.authed} test={this.state.test} />
+                <PublicRoute path='/test' component={Test} authed={this.state.authed} test={this.state.test} />
               </Switch>
             </div>
           </React.Fragment>

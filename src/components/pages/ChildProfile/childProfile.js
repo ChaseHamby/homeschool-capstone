@@ -1,17 +1,18 @@
 import React from 'react';
 import 'firebase/auth';
 import './childProfile.scss';
-import PropTypes from 'prop-types';
 import childRequests from '../../../helpers/data/childRequests';
 import authRequests from '../../../helpers/data/authRequests';
 import ChildProfileForm from '../ChildProfileForm/childProfileForm';
 import Child from '../Child/child';
+import HomeNavbar from '../../HomeNavbar/homeNavbar';
 
 class ChildProfile extends React.Component {
   state = {
     child: [],
     isEditing: false,
     childId: '',
+    authed: true,
   }
 
   displayChildren = () => {
@@ -37,6 +38,9 @@ class ChildProfile extends React.Component {
 
   componentDidMount() {
     this.displayChildren();
+    const theState = { ...this.state };
+    theState.authed = this.props.authed;
+    this.setState({ theState });
   }
 
   render() {
@@ -57,7 +61,11 @@ class ChildProfile extends React.Component {
       />);
     });
     return (
-      <div className="ChildProfile"><h4>Current Profiles</h4>
+      <div className="ChildProfile">
+        <HomeNavbar
+        authed={this.props.authed}
+        logoutClickEvent={this.props.logoutClickEvent}
+        />
         <div className="childProfileForm">
         <ChildProfileForm
         displayChildren={this.displayChildren}
