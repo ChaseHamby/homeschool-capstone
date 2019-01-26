@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './home.scss';
 import profileButton from '../../../images/createChild.png';
 import continueButton from '../../../images/outside.jpg';
@@ -10,9 +11,13 @@ class Home extends React.Component {
   }
 
   changeView = (e) => {
-    const view = e.currentTarget.id;
-    this.props.history.push(`/${view}`);
+    return (
+    // const view = e.currentTarget.id;
+    // this.props.history.push(`/${view}`);
+    <Link to={'/childProfile'} />
+    );
   }
+
 
   render() {
     return (
@@ -23,14 +28,10 @@ class Home extends React.Component {
       />
         <div className='homePage d-flex justify-content-around'>
           <div className="profileBtn">
-          <button className='btn btn-light' id='childProfile' onClick={this.changeView}>
-            <img src="https://firebasestorage.googleapis.com/v0/b/homeschool-capstone.appspot.com/o/LEOSAUL.jpg?alt=media&token=ac5f002f-383d-430c-a15c-f8173ef2097c" alt="create child profile button"/>
-          </button>
+          <a className='btn btn-light' id='childProfile' href={'/childProfile'}><i class="fas fa-plus-square fa-7x"></i><b>Create Child Profile</b></a>
           </div>
           <div className="continueBtn">
-          <button className='btn btn-light' id='resources' onClick={this.changeView}>
-            <img src={continueButton} alt="continue to site button"/>
-          </button>
+          <a className='btn btn-light' id='resources' href={'/resources'}><i class="fas fa-arrow-circle-right fa-7x"></i><b>Continue Without Profile</b></a>
           </div>
         </div>
     </div>

@@ -2,7 +2,7 @@
 	"book1": {
 		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
     "url": "https://www.amazon.com/Saxon-Math-Homeschool-Complete-Kit/dp/156577020Xcrid=1G5U851K5SHA0&keywords=saxon+math+3&qid=1547696536&sprefix=saxon+%2Caps%2C149&sr=8-1&ref=sr_1_1",
-    "image":"https://cdn.shopify.com/s/files/1/0051/7692/products/aba-000020-pp-5_660x@2x.progressive.jpg?v=1482334142",
+    "image":"https://g.christianbook.com/dg/slideshow/f400/20111_1_box_dp.jpg",
 		"title": "Saxon Math 3",
 		"quantity": "1",
 		"description": "This home study set includes a teacher's manual, a meeting book, and a student workbook with fact cards. Grade 3.",
@@ -13,7 +13,7 @@
 	"book2": {
 		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
     "url": "https://www.amazon.com/Horizons-Math-SET-Student-Workbooks/dp/B0021KFRCIcrid=17L4ZA3P051J3&keywords=horizons+math+kindergarten&qid=1547697204&sprefix=horizons+%2Caps%2C149&sr=8-1&ref=sr_1_1",
-    "image":"https://cdn.shopify.com/s/files/1/0051/7692/products/aba-000020-pp-5_660x@2x.progressive.jpg?v=1482334142",
+    "image":"https://g.christianbook.com/dg/product/cbd/f400/303112.jpg",
 		"title": "Horizons Math K",
 		"quantity": "1",
 		"description": "Horizons Math Kindergarten builds the foundation for the method of study that is used all the way through the Horizons Math program.",
@@ -24,7 +24,7 @@
 	"book3": {
 		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
     "url": "https://www.christianbook.com/lifepac-science-grade-11-workbook/9781580957816/pd/20813en=google&event=SHOP&kw=homeschool-6080%7C20813&p=1179710&dv=c&gclid=EAIaIQobChMI6oi5o_bz3wIVjY7ICh1FBAJkEAQYASABEgJ1pPD_BwE",
-    "image":"https://cdn.shopify.com/s/files/1/0051/7692/products/aba-000020-pp-5_660x@2x.progressive.jpg?v=1482334142",
+    "image":"https://booksofthebible.com/stock/p6974d.jpg",
 		"title": "Alpha Omega Chemistry Grade 11",
 		"quantity": "1",
 		"description": "Grade 11 workbook set covers the concept of the introduction to chemistry, basic chemical units and gases and moles, as well as atomic models, chemical formulas and chemical reactions.",
@@ -35,7 +35,7 @@
 	"book4": {
 		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
     "url": "https://www.bookshark.com/level-5/language-arts/keys-to-good-language-5",
-    "image":"https://cdn.shopify.com/s/files/1/0051/7692/products/aba-000020-pp-5_660x@2x.progressive.jpg?v=1482334142",
+    "image":"http://www.phoenixlearningresources.com/resize/Shared/Images/Product/Keys-to-Good-Language-Grade-5-Workbook/Keys-5-NEW.png?bw=1000&w=1000&bh=1000&h=1000",
 		"title": "Keys to Good Language Grade 5",
 		"quantity": "1",
 		"description": "Includes text-workbook with separate pre- and post-test booklet designed to build competency in grammar, usage, mechanics, and composition using content from across the curriculum: literature, science, health, hobbies and history/geography.",
@@ -46,12 +46,188 @@
 	"book5": {
 		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
     "url": "http://horrible-histories.co.uk/9781407178547/vicious-vikings",
-    "image":"https://cdn.shopify.com/s/files/1/0051/7692/products/aba-000020-pp-5_660x@2x.progressive.jpg?v=1482334142",
-		"title": "Horrible Histories",
+    "image":"https://images-na.ssl-images-amazon.com/images/I/51KMlvTp30L._SX323_BO1,204,203,200_.jpg",
+		"title": "Horrible Histories - Vicious Vikings",
 		"quantity": "1",
 		"description": "Readers can discover all the foul facts about the VICIOUS VIKINGS, discover Viking gods in wedding dresses, corpses on trial and death by booby-trapped statues. With a bold new look, these bestselling titles are sure to be a huge hit.",
 		"subject": "History",
-		"grade": "7",
+		"grade": "7, 8, 9",
 		"brand": "Horrible Histories"
+	},
+	"book6": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.amazon.co.uk/Terrible-Tudors-Horrible-Histories/dp/0439944058",
+    "image":"https://images-na.ssl-images-amazon.com/images/I/51gPYRGnDBL._SX323_BO1,204,203,200_.jpg",
+		"title": "Horrible Histories - Terrible Tudors",
+		"quantity": "1",
+		"description": "Readers can discover all the foul facts about the TERRIBLE TUDORS, including why Henry VIII thought he'd married a horse, all about terrible Tudor torture and which shocking swear words the Tudors used. ",
+		"subject": "History",
+		"grade": "7, 8, 9",
+		"brand": "Horrible Histories"
+	},
+	"book7": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "http://horrible-histories.co.uk/9781407178479/groovy-greeks",
+    "image":"http://images.scholastic.co.uk/assets/a/a4/8f/176462-ml-1676778.jpg",
+		"title": "Horrible Histories - Groovy Greeks",
+		"quantity": "1",
+		"description": "Readers can discover all the foul facts about the GROOVY GREEKS, including why girls ran about naked pretending to be bears, who had the world's first flushing toilet and why dedicated doctors tasted their patients' ear wax!",
+		"subject": "History",
+		"grade": "7, 8, 9",
+		"brand": "Horrible Histories"
+	},
+	"book8": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "http://horrible-histories.co.uk/9781407178493/rotten-romans",
+    "image":"http://images.scholastic.co.uk/assets/a/52/79/176455-ml-1641050.jpg",
+		"title": "Horrible Histories - Rotten Romans",
+		"quantity": "1",
+		"description": "ROTTEN ROMANS Readers can discover all the foul facts about the ROTTEN ROMANS, including what Roman soldiers wore under their kilts and how Romans told the future with dead chickens.",
+		"subject": "History",
+		"grade": "7, 8, 9",
+		"brand": "Horrible Histories"
+	},
+	"book9": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "http://horrible-histories.co.uk/9781407178486/measly-middle-ages",
+    "image":"http://images.scholastic.co.uk/assets/a/da/91/176464-ml-1676789.jpg",
+		"title": "Horrible Histories - Measly Middle Ages",
+		"quantity": "1",
+		"description": "Readers can discover all the foul facts about the MEASLY MIDDLE AGES, including why chickens had their bottoms shaved, a genuine jester's joke and what ten-year-old treacle was used for. ",
+		"subject": "History",
+		"grade": "7, 8, 9",
+		"brand": "Horrible Histories"
+	},
+	"book10": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.christianbook.com/page/homeschool/math/saxon-math/saxon-math-kindergarten?event=Homeschool|1002939",
+    "image":"https://g.christianbook.com/dg/product/cbd/w163/17001.jpg",
+		"title": "Saxon Math K",
+		"quantity": "1",
+		"description": "Saxon's comprehensive kindergarten program contains all the information you'll need to teach your child the math concepts necessary for their scholastic success.",
+		"subject": "Math",
+		"grade": "Kindergarten",
+		"brand": "Saxon"
+	},
+	"book11": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.christianbook.com/page/homeschool/math/saxon-math/saxon-math-grade-1?event=Homeschool|1002939",
+    "image":"https://g.christianbook.com/dg/product/cbd/f400/18800.jpg",
+		"title": "Saxon Math Grade 1",
+		"quantity": "1",
+		"description": "The Math One Home Study Kit teaches children to skip count by one's, two's, five's and tens, identify ordinal position to tenth, master all basic addition and subtraction facts, measure using inches, feet, and centimeters.",
+		"subject": "Math",
+		"grade": "1",
+		"brand": "Saxon"
+	},
+	"book12": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.christianbook.com/page/homeschool/math/saxon-math/saxon-math-grade-2?event=Homeschool|1002939",
+    "image":"https://g.christianbook.com/dg/product/cbd/f400/19600.jpg",
+		"title": "Saxon Math Grade 2",
+		"quantity": "1",
+		"description": "Math 2 covers working with larger numbers, geometric shapes, Venn diagrams, graphs, basic calculations, simple fractions and multi-step problems.",
+		"subject": "Math",
+		"grade": "2",
+		"brand": "Saxon"
+	},
+	"book13": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.christianbook.com/page/homeschool/math/saxon-math/saxon-math-54?event=Homeschool|1002939",
+    "image":"https://g.christianbook.com/dg/product/cbd/f400/993478.jpg",
+		"title": "Saxon Math Grade 4/5",
+		"quantity": "1",
+		"description": "Focusing on algebraic reasoning and geometric concepts, Saxon Math Homeschool 5/4 teaches math with a spiral approach, which emphasizes incremental development of new material and continuous review of previously taught concepts.",
+		"subject": "Math",
+		"grade": "4, 5",
+		"brand": "Saxon"
+	},
+	"book14": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.christianbook.com/saxon-math-home-study-4th-edition/9781591413493/pd/993494?event=Homeschool|1003067",
+    "image":"https://g.christianbook.com/dg/slideshow/f400/993494_1_ftc.jpg",
+		"title": "Saxon Math Grade 6/7",
+		"quantity": "1",
+		"description": "Saxon Math Homeschool 7/6 teaches math with a spiral approach, which emphasizes incremental development of new material and continuous review of previously taught concepts.",
+		"subject": "Math",
+		"grade": "6, 7",
+		"brand": "Saxon"
+	},
+	"book15": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.christianbook.com/page/homeschool/math/saxon-math/saxon-algebra-12?event=Homeschool|1002939",
+    "image":"https://g.christianbook.com/dg/product/cbd/f400/79499X.jpg",
+		"title": "Saxon Algebra Grade 8",
+		"quantity": "1",
+		"description": "This text is the culmination of prealgebra mathematics, a full pre-algebra course and an introduction to geometry and discrete mathematics.",
+		"subject": "Math",
+		"grade": "8",
+		"brand": "Saxon"
+	},
+	"book16": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.christianbook.com/page/homeschool/math/saxon-math/saxon-algebra-2-3e?event=Homeschool|1002939",
+    "image":"https://g.christianbook.com/dg/product/cbd/f400/529722.jpg",
+		"title": "Saxon Algebra Grade 9",
+		"quantity": "1",
+		"description": "Topics covered such as geometric functions, angles, perimeters, and proportional segments; negative exponents; quadratic equations; metric conversions; logarithms; and advanced factoring.",
+		"subject": "Math",
+		"grade": "High School",
+		"brand": "Saxon"
+	},
+	"book17": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.amazon.com/Geometry-Grade-Middle-School-Workbooks/dp/1941082718/ref=sr_1_1?s=books&ie=UTF8&qid=1544634183&sr=1-1&keywords=9781941082713",
+    "image":"https://images-na.ssl-images-amazon.com/images/I/51w89oewLIL._SX385_BO1,204,203,200_.jpg",
+		"title": "Kumon Geometry Grades 6-8",
+		"quantity": "1",
+		"description": "Each Kumon Intro to Geometry and Geometry workbook begins at an accessible starting point and progresses in incremental steps so that children do not get frustrated or confused.",
+		"subject": "Math",
+		"grade": "6, 7, 8",
+		"brand": "Kumon"
+	},
+	"book18": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.amazon.com/Geometry-Measurement-Kumon-Workbooks-Grade/dp/1934968668/ref=sr_1_12?s=books&ie=UTF8&qid=1548530235&sr=1-12&keywords=kumon+science",
+    "image":"https://images-na.ssl-images-amazon.com/images/I/51a9hyZ82AL._SX382_BO1,204,203,200_.jpg",
+		"title": "Kumon Geometry Grade 5",
+		"quantity": "1",
+		"description": "Each Kumon Intro to Geometry and Geometry workbook begins at an accessible starting point and progresses in incremental steps so that children do not get frustrated or confused.",
+		"subject": "Math",
+		"grade": "5",
+		"brand": "Kumon"
+	},
+	"book19": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.amazon.com/Word-Problems-Kumon-Workbooks-Grade/dp/1934968625/ref=pd_bxgy_img_3/142-9034760-7074712?_encoding=UTF8&pd_rd_i=1934968625&pd_rd_r=0f3af77e-219f-11e9-a390-79d8b511e885&pd_rd_w=Y0oFu&pd_rd_wg=XAUYc&pf_rd_p=3f9889ac-6c45-46e8-b515-3af650557207&pf_rd_r=JDM201WPE32MPYQRA72Y&psc=1&refRID=JDM201WPE32MPYQRA72Y",
+    "image":"https://images-na.ssl-images-amazon.com/images/I/51lmSjQl6QL._SX386_BO1,204,203,200_.jpg",
+		"title": "Kumon Word Problems Grade 3",
+		"quantity": "1",
+		"description": "This workbook helps your child build a strong foundation in word problems with multiplication and division. Children will progress gradually through our activities, to confidently choose which operations to use to solve word problems. Then, by mastering graphs and tables, your child will advance to more difficult word problems with ease.",
+		"subject": "Language Arts",
+		"grade": "3",
+		"brand": "Kumon"
+	},
+	"book20": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "http://kumonbooks.com/book/grade-2-reading/",
+    "image":"http://kumonbooks.com/wp-content/uploads/2014/12/Grade-2-Reading-1024x1332.jpg",
+		"title": "Kumon Reading Grade 2",
+		"quantity": "1",
+		"description": "In Grade 2 Reading your child will build on the basics to acquire vocabulary. Answering who/what/where/when/why questions and charting passages will strengthen your child’s critical reading skills.",
+		"subject": "Language Arts",
+		"grade": "2",
+		"brand": "Kumon"
+	},
+	"book21": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "http://kumonbooks.com/book/grade-1-writing/",
+    "image":"http://kumonbooks.com/wp-content/uploads/2014/12/Grade-1-Writing-1024x1323.jpg",
+		"title": "Kumon Writing Grade 1",
+		"quantity": "1",
+		"description": "Through a series of colorful activities, Grade 1 Writing introduces children to sight words, parts of speech, and writing sentences, stories, and letters. All of our Writing Workbooks are aligned to State Standards to ensure success in school.",
+		"subject": "Language Arts",
+		"grade": "1",
+		"brand": "Kumon"
 	}
 }

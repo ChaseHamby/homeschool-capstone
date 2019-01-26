@@ -51,7 +51,7 @@ class MainNavbar extends React.Component {
       if (this.state.authed) {
         return (
           <Nav className="ml-auto" navbar>
-          <Button className="viewProfiles" color="warning" id="childProfile" onClick={this.changeView}>View Profiles</Button>
+          <a className="viewProfiles btn btn-warning" id="childProfile" href={'/childProfile'}>View Profiles</a>
           <UncontrolledDropdown>
             <DropdownToggle caret>
             Shop By Subject
@@ -88,6 +88,7 @@ class MainNavbar extends React.Component {
               <DropdownItem>Alpha & Omega</DropdownItem>
               <DropdownItem>Scholastic</DropdownItem>
               <DropdownItem>Kumon</DropdownItem>
+              <DropdownItem>Horrible Histories</DropdownItem>
             </DropdownMenu>
           </UncontrolledDropdown>
             <NavItem>
@@ -101,7 +102,7 @@ class MainNavbar extends React.Component {
 
     return (
       <div className="my-navbar">
-        <Navbar color="dark" dark expand="lg">
+        <Navbar color="light" light expand="lg">
           <NavbarBrand href="/">Homeschool App</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
