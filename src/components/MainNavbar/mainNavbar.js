@@ -88,6 +88,7 @@ class MainNavbar extends React.Component {
               <DropdownItem>Alpha & Omega</DropdownItem>
               <DropdownItem>Scholastic</DropdownItem>
               <DropdownItem>Kumon</DropdownItem>
+              <DropdownItem>Horrible Histories</DropdownItem>
             </DropdownMenu>
           </UncontrolledDropdown>
             <NavItem>
