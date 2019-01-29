@@ -19,11 +19,6 @@ import {
 import './mainNavbar.scss';
 
 class MainNavbar extends React.Component {
-  // static propTypes = {
-  //   authed: PropTypes.bool,
-  //   logoutClickEvent: PropTypes.func,
-  // }
-
   constructor(props) {
     super(props);
 
@@ -57,7 +52,7 @@ class MainNavbar extends React.Component {
             Shop By Subject
             </DropdownToggle>
             <DropdownMenu>
-              <DropdownItem>Math</DropdownItem>
+              <DropdownItem onClick={this.props.clickFunction}>Math</DropdownItem>
               <DropdownItem>Science</DropdownItem>
               <DropdownItem>Language Arts</DropdownItem>
               <DropdownItem>History</DropdownItem>

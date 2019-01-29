@@ -3,6 +3,7 @@ import 'firebase/auth';
 import './resources.scss';
 import resourceRequests from '../../../helpers/data/resourceRequests';
 import authRequests from '../../../helpers/data/authRequests';
+import childRequests from '../../../helpers/data/childRequests';
 import Resource from '../Resource/resource';
 import MainNavbar from '../../MainNavbar/mainNavbar';
 
@@ -15,8 +16,15 @@ class Resources extends React.Component {
     const uid = authRequests.getCurrentUid();
     resourceRequests.getAllResources(uid)
       .then((data) => {
-        console.log(data);
         this.setState({ resources: data });
+      }).catch(err => console.error('error getting data', err));
+  }
+
+  clickFunction = () => {
+    resourceRequests.getAllResources()
+      .then((data) => {
+        const mathTest = data.filter(resources => resources.subject === 'Math');
+        console.log(mathTest);
       }).catch(err => console.error('error getting data', err));
   }
 
@@ -51,6 +59,7 @@ class Resources extends React.Component {
         authed={this.props.authed}
         logoutClickEvent={this.props.logoutClickEvent}
         changeview={this.props.changeview}
+        clickFunction={this.clickFunction}
         />
         <div className="builder">{resourceBuilder}</div>
         <div className="resourceArea">
