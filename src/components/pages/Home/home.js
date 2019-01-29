@@ -24,7 +24,7 @@ class Home extends React.Component {
           </div>
           <div className="continueBtn">
           <a className='btn btn-faded' id='resources' href={'/resources'}><i class="fas fa-arrow-circle-right fa-7x"></i></a>
-          <div><b><h2 className="buttonText"> Continue Without Profile </h2></b></div>
+          <div><b><h2 className="buttonText2"> Continue Without Profile </h2></b></div>
           </div>
         </div>
     </div>

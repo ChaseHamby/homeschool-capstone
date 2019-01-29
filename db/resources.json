@@ -38,7 +38,7 @@
     "image":"http://www.phoenixlearningresources.com/resize/Shared/Images/Product/Keys-to-Good-Language-Grade-5-Workbook/Keys-5-NEW.png?bw=1000&w=1000&bh=1000&h=1000",
 		"title": "Keys to Good Language Grade 5",
 		"quantity": "1",
-		"description": "Includes text-workbook with separate pre- and post-test booklet designed to build competency in grammar, usage, mechanics, and composition using content from across the curriculum: literature, science, health, hobbies and history/geography.",
+		"description": "Includes text-workbook with separate pre- and post-test booklet designed to build competency in grammar, usage, mechanics, and composition using content from across the curriculum.",
 		"subject": "Language Arts",
 		"grade": "Grades 4-6",
 		"brand": "Bookshark"
@@ -49,7 +49,7 @@
     "image":"https://images-na.ssl-images-amazon.com/images/I/51KMlvTp30L._SX323_BO1,204,203,200_.jpg",
 		"title": "Horrible Histories - Vicious Vikings",
 		"quantity": "1",
-		"description": "Readers can discover all the foul facts about the VICIOUS VIKINGS, discover Viking gods in wedding dresses, corpses on trial and death by booby-trapped statues. With a bold new look, these bestselling titles are sure to be a huge hit.",
+		"description": "Readers can discover all the foul facts about the VICIOUS VIKINGS, discover Viking gods in wedding dresses, corpses on trial and death by booby-trapped statues.",
 		"subject": "History",
 		"grade": "Grades 7-8",
 		"brand": "Horrible Histories"
@@ -60,7 +60,7 @@
     "image":"https://images-na.ssl-images-amazon.com/images/I/51gPYRGnDBL._SX323_BO1,204,203,200_.jpg",
 		"title": "Horrible Histories - Terrible Tudors",
 		"quantity": "1",
-		"description": "Readers can discover all the foul facts about the TERRIBLE TUDORS, including why Henry VIII thought he'd married a horse, all about terrible Tudor torture and which shocking swear words the Tudors used. ",
+		"description": "Readers can discover all the foul facts about the TERRIBLE TUDORS, including why Henry VIII thought he'd married a horse, all about Tudor torture and which swear words the Tudors used.",
 		"subject": "History",
 		"grade": "Grades 7-8",
 		"brand": "Horrible Histories"
@@ -71,7 +71,7 @@
     "image":"http://images.scholastic.co.uk/assets/a/a4/8f/176462-ml-1676778.jpg",
 		"title": "Horrible Histories - Groovy Greeks",
 		"quantity": "1",
-		"description": "Readers can discover all the foul facts about the GROOVY GREEKS, including why girls ran about naked pretending to be bears, who had the world's first flushing toilet and why dedicated doctors tasted their patients' ear wax!",
+		"description": "Readers can discover all the foul facts about the GROOVY GREEKS, including why girls ran about naked pretending to be bears and why doctors tasted their patients' ear wax!",
 		"subject": "History",
 		"grade": "Grades 7-8",
 		"brand": "Horrible Histories"
@@ -115,7 +115,7 @@
     "image":"https://g.christianbook.com/dg/product/cbd/f400/18800.jpg",
 		"title": "Saxon Math Grade 1",
 		"quantity": "1",
-		"description": "The Math One Home Study Kit teaches children to skip count by one's, two's, five's and tens, identify ordinal position to tenth, master all basic addition and subtraction facts, measure using inches, feet, and centimeters.",
+		"description": "The Math One Home Study Kit teaches children to skip count by one's, two's, five's and tens, identify ordinal position to tenth, master all basic addition and subtraction facts.",
 		"subject": "Math",
 		"grade": "Grades 1-3",
 		"brand": "Saxon"
@@ -137,7 +137,7 @@
     "image":"https://g.christianbook.com/dg/product/cbd/f400/993478.jpg",
 		"title": "Saxon Math Grade 4/5",
 		"quantity": "1",
-		"description": "Focusing on algebraic reasoning and geometric concepts, Saxon Math Homeschool 5/4 teaches math with a spiral approach, which emphasizes incremental development of new material and continuous review of previously taught concepts.",
+		"description": "Focusing on algebraic reasoning/geometric concepts, this book teaches math with a spiral approach, which emphasizes incremental development of new material and review of previously taught concepts.",
 		"subject": "Math",
 		"grade": "Grades 4-6",
 		"brand": "Saxon"
@@ -203,7 +203,7 @@
     "image":"https://images-na.ssl-images-amazon.com/images/I/51lmSjQl6QL._SX386_BO1,204,203,200_.jpg",
 		"title": "Kumon Word Problems Grade 3",
 		"quantity": "1",
-		"description": "This workbook helps your child build a strong foundation in word problems with multiplication and division. Children will progress gradually through our activities, to confidently choose which operations to use to solve word problems. Then, by mastering graphs and tables, your child will advance to more difficult word problems with ease.",
+		"description": "This workbook helps your child build a strong foundation in word problems with multiplication and division.",
 		"subject": "Language Arts",
 		"grade": "Grades 1-3",
 		"brand": "Kumon"
@@ -214,20 +214,196 @@
     "image":"http://kumonbooks.com/wp-content/uploads/2014/12/Grade-2-Reading-1024x1332.jpg",
 		"title": "Kumon Reading Grade 2",
 		"quantity": "1",
-		"description": "In Grade 2 Reading your child will build on the basics to acquire vocabulary. Answering who/what/where/when/why questions and charting passages will strengthen your child’s critical reading skills.",
+		"description": "In Grade 2 Reading your child will build on the basics to acquire vocabulary. Answering questions and charting passages will strengthen your child’s critical reading skills.",
 		"subject": "Language Arts",
 		"grade": "Grades 1-3",
 		"brand": "Kumon"
 	},
-	"book21": {
+	"book22": {
 		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
-    "url": "http://kumonbooks.com/book/grade-1-writing/",
-    "image":"http://kumonbooks.com/wp-content/uploads/2014/12/Grade-1-Writing-1024x1323.jpg",
-		"title": "Kumon Writing Grade 1",
+    "url": "https://www.christianbook.com/history-of-art-workbook/9781936648412/pd/803081?en=google&event=SHOP&kw=homeschool-20-40%7C803081&p=1179710&dv=c&gclid=EAIaIQobChMIt5mLh_KR4AIVhMVkCh3YTwyUEAQYASABEgJEQ_D_BwE",
+    "image":"https://g.christianbook.com/dg/product/cbd/f400/803081.jpg",
+		"title": "History of Art Workbook",
 		"quantity": "1",
-		"description": "Through a series of colorful activities, Grade 1 Writing introduces children to sight words, parts of speech, and writing sentences, stories, and letters. All of our Writing Workbooks are aligned to State Standards to ensure success in school.",
-		"subject": "Language Arts",
+		"description": "The Veritas Press History of Art curriculum covers art history from the Prehistoric to the Contemporary art scene.",
+		"subject": "Art",
+		"grade": "High School",
+		"brand": "Veritas"
+	},
+	"book23": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://cathyduffyreviews.com/homeschool-reviews-core-curricula/art-and-music/art/art-a-visual-history",
+    "image":"https://cathyduffyreviews.com/images/art-a-visual-history.jpg",
+		"title": "Art: A Visual History",
+		"quantity": "1",
+		"description": "The 416-page book serves best as a historical encyclopedia of art, primarily from the western world. It features paintings, sculptures, and other three-dimensional artworks.",
+		"subject": "Art",
+		"grade": "High School",
+		"brand": "Random House"
+	},
+	"book24": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.bookshark.com/electives-art/artistic-pursuits-grades-k-3",
+    "image":"https://www.bookshark.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/r/a/ra40-l_1.jpg",
+		"title": "ARTistic Pursuits 1-3",
+		"quantity": "1",
+		"description": "Art encourages imagination and improves academic achievement. Each book contains between 32 and 64 hands-on projects and we've assembled an Art Supplies Kit with everything you need for Book 1.",
+		"subject": "Art",
 		"grade": "Grades 1-3",
+		"brand": "Bookshark"
+	},
+	"book25": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.bookshark.com/electives-art/artistic-pursuits-grades-4-6-book-1-or-2",
+    "image":"https://www.bookshark.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/r/a/ra50-l_1.jpg",
+		"title": "ARTistic Pursuits 4-6",
+		"quantity": "1",
+		"description": "Art encourages imagination and improves academic achievement. Each book contains between 32 and 64 hands-on projects and we've assembled an Art Supplies Kit with everything you need for Book 1.",
+		"subject": "Art",
+		"grade": "Grades 4-6",
+		"brand": "Bookshark"
+	},
+	"book26": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.bookshark.com/electives-art/artistic-pursuits-junior-high-book-1-or-2",
+    "image":"https://www.bookshark.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/r/a/ra60-l_1.jpg",
+		"title": "ARTistic Pursuits Junior High",
+		"quantity": "1",
+		"description": "Art encourages imagination and improves academic achievement. Each book contains between 32 and 64 hands-on projects and we've assembled an Art Supplies Kit with everything you need for Book 1.",
+		"subject": "Art",
+		"grade": "Grades 7-8",
+		"brand": "Bookshark"
+	},
+	"book27": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.bookshark.com/pre-k/a-child-s-book-of-art",
+    "image":"https://www.bookshark.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/p/a/pa15-l.jpg",
+		"title": "A Child's Book of Art",
+		"quantity": "1",
+		"description": "Mostly famous, but some not-so-famous, works of art arranged in thematic patterns for young children. From medieval to modern, Western and non-Western pieces. Gorgeous and fun.",
+		"subject": "Art",
+		"grade": "Pre-K",
+		"brand": "Bookshark"
+	},
+	"book28": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.bookshark.com/pre-k/a-city-through-time",
+    "image":"https://www.bookshark.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/p/a/pa30.jpg",
+		"title": "A City Through Time",
+		"quantity": "1",
+		"description": "Come on a spectacular journey through time to discover the exciting history of a city. Features absorbing panoramic illustrations and detailed cutaways of how a city is transformed over 2,500.",
+		"subject": "History",
+		"grade": "Pre-K",
+		"brand": "Bookshark"
+	},
+	"book29": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.bookshark.com/pre-k/a-street-through-time",
+    "image":"https://www.bookshark.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/p/a/pa31.jpg",
+		"title": "A Street Through Time",
+		"quantity": "1",
+		"description": "Journey through history and find out how people lived long ago - what they wore, what they ate, and what they did all day.",
+		"subject": "History",
+		"grade": "Pre-K",
+		"brand": "Bookshark"
+	},
+	"book30": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.bookshark.com/pre-k/people",
+    "image":"https://www.bookshark.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/p/g/pg01-l.jpg",
+		"title": "People",
+		"quantity": "1",
+		"description": "A meditative book illustrating the broad diversity of people in the world today.",
+		"subject": "History",
+		"grade": "Pre-K",
+		"brand": "Bookshark"
+	},
+	"book31": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.bookshark.com/pre-k/winnie-the-pooh",
+    "image":"https://www.bookshark.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/a/a/aa32-l.jpg",
+		"title": "Winnie The Pooh",
+		"quantity": "1",
+		"description": "Winnie-the-Pooh tells the tale of young Christopher Robin and his companions—Piglet, Eeyore, and most of all, a bear called Pooh.",
+		"subject": "Language Arts",
+		"grade": "Pre-K",
+		"brand": "Bookshark"
+	},
+	"book32": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.bookshark.com/pre-k/eric-carle-s-animals-animals",
+    "image":"https://www.bookshark.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/p/a/pa10-l.jpg",
+		"title": "Animals Animals",
+		"quantity": "1",
+		"description": "In this riveting volume, Eric Carle's wonderfully colorful collages celebrate the diversity of the earth's animals. Punctuated by poems and lyrics from distinguished sources as diverse as Shakespeare, and others.",
+		"subject": "Language Arts",
+		"grade": "Pre-K",
+		"brand": "Bookshark"
+	},
+	"book33": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "http://kumonbooks.com/book/science/",
+    "image":"http://kumonbooks.com/wp-content/uploads/2017/01/Science.jpg",
+		"title": "Kumon Science Pre-K & Up",
+		"quantity": "1",
+		"description": "This book uses engaging and fun activities to introduce children to concepts in science. Activities types are carefully matched with learning goals to promote both enjoyment and understanding.",
+		"subject": "Science",
+		"grade": "Pre-K",
 		"brand": "Kumon"
+	},
+	"book34": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.bookshark.com/level-1/science/science-1/",
+    "image":"https://www.bookshark.com/media/catalog/product/b/s/bs04-l.jpg",
+		"title": "First Encyclopedia of the Human Body",
+		"quantity": "1",
+		"description": "Where does your food go? Why do we have eyelashes? This fact-packed and beautifully illustrated introduction to the human body and how it works helps you find answers.",
+		"subject": "Science",
+		"grade": "Grades 1-3",
+		"brand": "Bookshark"
+	},
+	"book35": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.bookshark.com/level-1/science/science-1/",
+    "image":"https://www.bookshark.com/media/catalog/product/b/s/bs08-l.jpg",
+		"title": "The Magic School Bus at the Waterworks",
+		"quantity": "1",
+		"description": "By taking us on a 'you are there' field trip, this book explains the water cycle and modern methods of water purification and distribution.",
+		"subject": "Science",
+		"grade": "Grades 1-3",
+		"brand": "Bookshark"
+	},
+	"book36": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.bookshark.com/level-1/science/science-1/",
+    "image":"https://www.bookshark.com/media/catalog/product/b/s/bs09.jpg",
+		"title": "Why Do People Eat?",
+		"quantity": "1",
+		"description": "Fascinating introduction to nutrition, foods and dietary habits around the world.",
+		"subject": "Science",
+		"grade": "Grades 1-3",
+		"brand": "Bookshark"
+	},
+	"book37": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.bookshark.com/level-1/science/science-1/",
+    "image":"https://www.bookshark.com/media/catalog/product/1/s/1st-science.jpg",
+		"title": "Animals, Astrononomy & Physics",
+		"quantity": "1",
+		"description": "Includes the following resources for teaching all Science 1 subjects: full Schedule; Teaching Helps; student Activity Sheets; separate parent full Answers and Definitions; and much more. Ready for your binder.",
+		"subject": "Science",
+		"grade": "Grades 1-3",
+		"brand": "Bookshark"
+	},
+	"book38": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.amazon.com/Preschool-Curriculum-KINDERGARTEN-HOMESCHOOLING-CURRICULUM/dp/0740329952/ref=sr_1_7?s=books&ie=UTF8&qid=1548728839&sr=1-7&refinements=p_27%3AAlpha+Omega+Publications",
+    "image":"https://images-na.ssl-images-amazon.com/images/I/51u3%2BAIlokL._SY498_BO1,204,203,200_.jpg",
+		"title": "Horizons Preschool for Three's ",
+		"quantity": "1",
+		"description": "Prepare your three-year-old for preschool with a program precisely designed to address cognitive development, pre-reading and numeracy skills, and language acquisition. Integrating.",
+		"subject": "Language Arts",
+		"grade": "Kindergarten",
+		"brand": "Horizons"
 	}
 }

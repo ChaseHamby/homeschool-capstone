@@ -1,10 +1,8 @@
 import React from 'react';
-// import authRequests from '../../../helpers/data/authRequests';
 import './resource.scss';
 
 class Resource extends React.Component {
   render() {
-    // const myUid = authRequests.getCurrentUid();
     return (
       <div className="container py-3">
       <div className="card">

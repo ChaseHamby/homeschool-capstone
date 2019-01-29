@@ -1,6 +1,5 @@
 
 import React from 'react';
-import PropTypes from 'prop-types';
 import {
   Collapse,
   Navbar,
@@ -9,11 +8,9 @@ import {
   Nav,
   NavItem,
   NavLink,
-  Dropdown,
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
-  Button,
   UncontrolledDropdown,
 } from 'reactstrap';
 import './mainNavbar.scss';
@@ -81,7 +78,6 @@ class MainNavbar extends React.Component {
               <DropdownItem onClick={this.props.brandFilter} value="Bookshark">Bookshark</DropdownItem>
               <DropdownItem onClick={this.props.brandFilter} value="Horizons">Horizons</DropdownItem>
               <DropdownItem onClick={this.props.brandFilter} value="Alpha & Omega">Alpha & Omega</DropdownItem>
-              <DropdownItem onClick={this.props.brandFilter} value="Scholastic">Scholastic</DropdownItem>
               <DropdownItem onClick={this.props.brandFilter} value="Kumon">Kumon</DropdownItem>
               <DropdownItem onClick={this.props.brandFilter} value="Horrible Histories">Horrible Histories</DropdownItem>
             </DropdownMenu>
