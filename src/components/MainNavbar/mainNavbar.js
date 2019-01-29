@@ -52,11 +52,11 @@ class MainNavbar extends React.Component {
             Shop By Subject
             </DropdownToggle>
             <DropdownMenu>
-              <DropdownItem onClick={this.props.clickFunction}>Math</DropdownItem>
-              <DropdownItem>Science</DropdownItem>
-              <DropdownItem>Language Arts</DropdownItem>
-              <DropdownItem>History</DropdownItem>
-              <DropdownItem>Art</DropdownItem>
+              <DropdownItem onClick={this.props.subjectFilter} value="Math">Math</DropdownItem>
+              <DropdownItem onClick={this.props.subjectFilter} value="Science">Science</DropdownItem>
+              <DropdownItem onClick={this.props.subjectFilter} value="Language Arts"> Language Arts</DropdownItem>
+              <DropdownItem onClick={this.props.subjectFilter} value="History">History</DropdownItem>
+              <DropdownItem onClick={this.props.subjectFilter} value="Art">Art</DropdownItem>
             </DropdownMenu>
           </UncontrolledDropdown>
           <UncontrolledDropdown>
@@ -64,12 +64,12 @@ class MainNavbar extends React.Component {
             Shop By Grade
             </DropdownToggle>
             <DropdownMenu>
-              <DropdownItem>Pre-K</DropdownItem>
-              <DropdownItem>Kindergarten</DropdownItem>
-              <DropdownItem>Grades 1-3</DropdownItem>
-              <DropdownItem>Grades 4-6</DropdownItem>
-              <DropdownItem>Grades 7-8</DropdownItem>
-              <DropdownItem>High School</DropdownItem>
+              <DropdownItem onClick={this.props.gradeFilter} value="Pre-K">Pre-K</DropdownItem>
+              <DropdownItem onClick={this.props.gradeFilter} value="Kindergarten">Kindergarten</DropdownItem>
+              <DropdownItem onClick={this.props.gradeFilter} value="Grades 1-3">Grades 1-3</DropdownItem>
+              <DropdownItem onClick={this.props.gradeFilter} value="Grades 4-6">Grades 4-6</DropdownItem>
+              <DropdownItem onClick={this.props.gradeFilter} value="Grades 7-8">Grades 7-8</DropdownItem>
+              <DropdownItem onClick={this.props.gradeFilter} value="High School">High School</DropdownItem>
             </DropdownMenu>
           </UncontrolledDropdown>
           <UncontrolledDropdown>
@@ -77,13 +77,13 @@ class MainNavbar extends React.Component {
             Shop By Brand
             </DropdownToggle>
             <DropdownMenu>
-              <DropdownItem>Saxon</DropdownItem>
-              <DropdownItem>Bookshark</DropdownItem>
-              <DropdownItem>Horizons</DropdownItem>
-              <DropdownItem>Alpha & Omega</DropdownItem>
-              <DropdownItem>Scholastic</DropdownItem>
-              <DropdownItem>Kumon</DropdownItem>
-              <DropdownItem>Horrible Histories</DropdownItem>
+              <DropdownItem onClick={this.props.brandFilter} value="Saxon">Saxon</DropdownItem>
+              <DropdownItem onClick={this.props.brandFilter} value="Bookshark">Bookshark</DropdownItem>
+              <DropdownItem onClick={this.props.brandFilter} value="Horizons">Horizons</DropdownItem>
+              <DropdownItem onClick={this.props.brandFilter} value="Alpha & Omega">Alpha & Omega</DropdownItem>
+              <DropdownItem onClick={this.props.brandFilter} value="Scholastic">Scholastic</DropdownItem>
+              <DropdownItem onClick={this.props.brandFilter} value="Kumon">Kumon</DropdownItem>
+              <DropdownItem onClick={this.props.brandFilter} value="Horrible Histories">Horrible Histories</DropdownItem>
             </DropdownMenu>
           </UncontrolledDropdown>
             <NavItem>

@@ -1,8 +1,18 @@
+.Auth {
+  background-image: url("https://www.fishphilosophy.com/wp-content/uploads/2017/06/blog-37-play-kids.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+  height: 100%; 
+}
+
 img {
-  width: 250px;
+  width: 350px;
+  height: 70px;
 }
 
 .authBtn {
-  position: relative;
   margin-top: 10%;
+  margin-bottom: 500px;
 }

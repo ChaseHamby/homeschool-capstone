@@ -20,11 +20,36 @@ class Resources extends React.Component {
       }).catch(err => console.error('error getting data', err));
   }
 
-  clickFunction = () => {
+  subjectFilter = (event) => {
+    const selectedFilter = event.target.value;
     resourceRequests.getAllResources()
       .then((data) => {
-        const mathTest = data.filter(resources => resources.subject === 'Math');
-        console.log(mathTest);
+        console.log(selectedFilter);
+        const filteredData = data.filter(resources => resources.subject === selectedFilter);
+        console.log(filteredData);
+        this.setState({ resources: filteredData });
+      }).catch(err => console.error('error getting data', err));
+  }
+
+  gradeFilter = (event) => {
+    const selectedFilter = event.target.value;
+    resourceRequests.getAllResources()
+      .then((data) => {
+        console.log(selectedFilter);
+        const filteredData = data.filter(resources => resources.grade === selectedFilter);
+        console.log(filteredData);
+        this.setState({ resources: filteredData });
+      }).catch(err => console.error('error getting data', err));
+  }
+
+  brandFilter = (event) => {
+    const selectedFilter = event.target.value;
+    resourceRequests.getAllResources()
+      .then((data) => {
+        console.log(selectedFilter);
+        const filteredData = data.filter(resources => resources.brand === selectedFilter);
+        console.log(filteredData);
+        this.setState({ resources: filteredData });
       }).catch(err => console.error('error getting data', err));
   }
 
@@ -59,7 +84,9 @@ class Resources extends React.Component {
         authed={this.props.authed}
         logoutClickEvent={this.props.logoutClickEvent}
         changeview={this.props.changeview}
-        clickFunction={this.clickFunction}
+        subjectFilter={this.subjectFilter}
+        gradeFilter={this.gradeFilter}
+        brandFilter={this.brandFilter}
         />
         <div className="builder">{resourceBuilder}</div>
         <div className="resourceArea">
