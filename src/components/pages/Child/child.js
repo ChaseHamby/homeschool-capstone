@@ -47,15 +47,12 @@ class Child extends React.Component {
     return (
       <div className="container py-3">
       <div className="card">
-        <div className="row">
-        <div className="col-md-4 rounded">
-            <img src={this.props.image} className="img w-100 h-100"></img>
-            </div>
+        <div className="d-flex justify-content-center">
             <div className="col-md-8 p-3">
               <div className="card-block px-3">
-                <h4 className="card-title">{this.props.firstName} {this.props.lastName}</h4>
+                <h2 className="card-title">{this.props.firstName} {this.props.lastName}</h2>
                 <p className="card-text">{this.props.email}</p>
-                <p className="card-text"><b>Subject: {this.props.age}</b></p>
+                <p className="card-text"><b>Age: {this.props.age}</b></p>
                 <p className="card-text"><b>Grade: {this.props.grade}</b></p>
                 <div className="datButtonz d-flex justify-content-around row datButtonz">
                 <div className="d-flex justify-content-center">{showEditButton()}</div>
