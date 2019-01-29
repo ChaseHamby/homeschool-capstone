@@ -7,7 +7,7 @@
 		"quantity": "1",
 		"description": "This home study set includes a teacher's manual, a meeting book, and a student workbook with fact cards. Grade 3.",
 		"subject": "Math",
-		"grade": "3",
+		"grade": "Grades 1-3",
 		"brand": "Saxon"
 	},
 	"book2": {
@@ -18,7 +18,7 @@
 		"quantity": "1",
 		"description": "Horizons Math Kindergarten builds the foundation for the method of study that is used all the way through the Horizons Math program.",
 		"subject": "Math",
-		"grade": "K",
+		"grade": "Kindergarten",
 		"brand": "Horizons"
 	},
 	"book3": {
@@ -29,7 +29,7 @@
 		"quantity": "1",
 		"description": "Grade 11 workbook set covers the concept of the introduction to chemistry, basic chemical units and gases and moles, as well as atomic models, chemical formulas and chemical reactions.",
 		"subject": "Science",
-		"grade": "11",
+		"grade": "High School",
 		"brand": "Alpha & Omega"
 	},
 	"book4": {
@@ -40,7 +40,7 @@
 		"quantity": "1",
 		"description": "Includes text-workbook with separate pre- and post-test booklet designed to build competency in grammar, usage, mechanics, and composition using content from across the curriculum: literature, science, health, hobbies and history/geography.",
 		"subject": "Language Arts",
-		"grade": "5",
+		"grade": "Grades 4-6",
 		"brand": "Bookshark"
 	},
 	"book5": {
@@ -51,7 +51,7 @@
 		"quantity": "1",
 		"description": "Readers can discover all the foul facts about the VICIOUS VIKINGS, discover Viking gods in wedding dresses, corpses on trial and death by booby-trapped statues. With a bold new look, these bestselling titles are sure to be a huge hit.",
 		"subject": "History",
-		"grade": "7, 8, 9",
+		"grade": "Grades 7-8",
 		"brand": "Horrible Histories"
 	},
 	"book6": {
@@ -62,7 +62,7 @@
 		"quantity": "1",
 		"description": "Readers can discover all the foul facts about the TERRIBLE TUDORS, including why Henry VIII thought he'd married a horse, all about terrible Tudor torture and which shocking swear words the Tudors used. ",
 		"subject": "History",
-		"grade": "7, 8, 9",
+		"grade": "Grades 7-8",
 		"brand": "Horrible Histories"
 	},
 	"book7": {
@@ -73,7 +73,7 @@
 		"quantity": "1",
 		"description": "Readers can discover all the foul facts about the GROOVY GREEKS, including why girls ran about naked pretending to be bears, who had the world's first flushing toilet and why dedicated doctors tasted their patients' ear wax!",
 		"subject": "History",
-		"grade": "7, 8, 9",
+		"grade": "Grades 7-8",
 		"brand": "Horrible Histories"
 	},
 	"book8": {
@@ -84,7 +84,7 @@
 		"quantity": "1",
 		"description": "ROTTEN ROMANS Readers can discover all the foul facts about the ROTTEN ROMANS, including what Roman soldiers wore under their kilts and how Romans told the future with dead chickens.",
 		"subject": "History",
-		"grade": "7, 8, 9",
+		"grade": "Grades 7-8",
 		"brand": "Horrible Histories"
 	},
 	"book9": {
@@ -95,7 +95,7 @@
 		"quantity": "1",
 		"description": "Readers can discover all the foul facts about the MEASLY MIDDLE AGES, including why chickens had their bottoms shaved, a genuine jester's joke and what ten-year-old treacle was used for. ",
 		"subject": "History",
-		"grade": "7, 8, 9",
+		"grade": "Grades 7-8",
 		"brand": "Horrible Histories"
 	},
 	"book10": {
@@ -117,7 +117,7 @@
 		"quantity": "1",
 		"description": "The Math One Home Study Kit teaches children to skip count by one's, two's, five's and tens, identify ordinal position to tenth, master all basic addition and subtraction facts, measure using inches, feet, and centimeters.",
 		"subject": "Math",
-		"grade": "1",
+		"grade": "Grades 1-3",
 		"brand": "Saxon"
 	},
 	"book12": {
@@ -128,7 +128,7 @@
 		"quantity": "1",
 		"description": "Math 2 covers working with larger numbers, geometric shapes, Venn diagrams, graphs, basic calculations, simple fractions and multi-step problems.",
 		"subject": "Math",
-		"grade": "2",
+		"grade": "Grades 1-3",
 		"brand": "Saxon"
 	},
 	"book13": {
@@ -139,18 +139,18 @@
 		"quantity": "1",
 		"description": "Focusing on algebraic reasoning and geometric concepts, Saxon Math Homeschool 5/4 teaches math with a spiral approach, which emphasizes incremental development of new material and continuous review of previously taught concepts.",
 		"subject": "Math",
-		"grade": "4, 5",
+		"grade": "Grades 4-6",
 		"brand": "Saxon"
 	},
 	"book14": {
 		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
     "url": "https://www.christianbook.com/saxon-math-home-study-4th-edition/9781591413493/pd/993494?event=Homeschool|1003067",
     "image":"https://g.christianbook.com/dg/slideshow/f400/993494_1_ftc.jpg",
-		"title": "Saxon Math Grade 6/7",
+		"title": "Saxon Math Grade 7/8",
 		"quantity": "1",
 		"description": "Saxon Math Homeschool 7/6 teaches math with a spiral approach, which emphasizes incremental development of new material and continuous review of previously taught concepts.",
 		"subject": "Math",
-		"grade": "6, 7",
+		"grade": "Grades 7-8",
 		"brand": "Saxon"
 	},
 	"book15": {
@@ -161,7 +161,7 @@
 		"quantity": "1",
 		"description": "This text is the culmination of prealgebra mathematics, a full pre-algebra course and an introduction to geometry and discrete mathematics.",
 		"subject": "Math",
-		"grade": "8",
+		"grade": "Grades 7-8",
 		"brand": "Saxon"
 	},
 	"book16": {
@@ -179,11 +179,11 @@
 		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
     "url": "https://www.amazon.com/Geometry-Grade-Middle-School-Workbooks/dp/1941082718/ref=sr_1_1?s=books&ie=UTF8&qid=1544634183&sr=1-1&keywords=9781941082713",
     "image":"https://images-na.ssl-images-amazon.com/images/I/51w89oewLIL._SX385_BO1,204,203,200_.jpg",
-		"title": "Kumon Geometry Grades 6-8",
+		"title": "Kumon Geometry Grades 7-8",
 		"quantity": "1",
 		"description": "Each Kumon Intro to Geometry and Geometry workbook begins at an accessible starting point and progresses in incremental steps so that children do not get frustrated or confused.",
 		"subject": "Math",
-		"grade": "6, 7, 8",
+		"grade": "Grades 7-8",
 		"brand": "Kumon"
 	},
 	"book18": {
@@ -194,7 +194,7 @@
 		"quantity": "1",
 		"description": "Each Kumon Intro to Geometry and Geometry workbook begins at an accessible starting point and progresses in incremental steps so that children do not get frustrated or confused.",
 		"subject": "Math",
-		"grade": "5",
+		"grade": "Grades 4-6",
 		"brand": "Kumon"
 	},
 	"book19": {
@@ -205,7 +205,7 @@
 		"quantity": "1",
 		"description": "This workbook helps your child build a strong foundation in word problems with multiplication and division. Children will progress gradually through our activities, to confidently choose which operations to use to solve word problems. Then, by mastering graphs and tables, your child will advance to more difficult word problems with ease.",
 		"subject": "Language Arts",
-		"grade": "3",
+		"grade": "Grades 1-3",
 		"brand": "Kumon"
 	},
 	"book20": {
@@ -216,7 +216,7 @@
 		"quantity": "1",
 		"description": "In Grade 2 Reading your child will build on the basics to acquire vocabulary. Answering who/what/where/when/why questions and charting passages will strengthen your child’s critical reading skills.",
 		"subject": "Language Arts",
-		"grade": "2",
+		"grade": "Grades 1-3",
 		"brand": "Kumon"
 	},
 	"book21": {
@@ -227,7 +227,7 @@
 		"quantity": "1",
 		"description": "Through a series of colorful activities, Grade 1 Writing introduces children to sight words, parts of speech, and writing sentences, stories, and letters. All of our Writing Workbooks are aligned to State Standards to ensure success in school.",
 		"subject": "Language Arts",
-		"grade": "1",
+		"grade": "Grades 1-3",
 		"brand": "Kumon"
 	}
 }

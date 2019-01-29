@@ -3,6 +3,7 @@ import 'firebase/auth';
 import './resources.scss';
 import resourceRequests from '../../../helpers/data/resourceRequests';
 import authRequests from '../../../helpers/data/authRequests';
+import childRequests from '../../../helpers/data/childRequests';
 import Resource from '../Resource/resource';
 import MainNavbar from '../../MainNavbar/mainNavbar';
 
@@ -15,8 +16,40 @@ class Resources extends React.Component {
     const uid = authRequests.getCurrentUid();
     resourceRequests.getAllResources(uid)
       .then((data) => {
-        console.log(data);
         this.setState({ resources: data });
+      }).catch(err => console.error('error getting data', err));
+  }
+
+  subjectFilter = (event) => {
+    const selectedFilter = event.target.value;
+    resourceRequests.getAllResources()
+      .then((data) => {
+        console.log(selectedFilter);
+        const filteredData = data.filter(resources => resources.subject === selectedFilter);
+        console.log(filteredData);
+        this.setState({ resources: filteredData });
+      }).catch(err => console.error('error getting data', err));
+  }
+
+  gradeFilter = (event) => {
+    const selectedFilter = event.target.value;
+    resourceRequests.getAllResources()
+      .then((data) => {
+        console.log(selectedFilter);
+        const filteredData = data.filter(resources => resources.grade === selectedFilter);
+        console.log(filteredData);
+        this.setState({ resources: filteredData });
+      }).catch(err => console.error('error getting data', err));
+  }
+
+  brandFilter = (event) => {
+    const selectedFilter = event.target.value;
+    resourceRequests.getAllResources()
+      .then((data) => {
+        console.log(selectedFilter);
+        const filteredData = data.filter(resources => resources.brand === selectedFilter);
+        console.log(filteredData);
+        this.setState({ resources: filteredData });
       }).catch(err => console.error('error getting data', err));
   }
 
@@ -51,6 +84,9 @@ class Resources extends React.Component {
         authed={this.props.authed}
         logoutClickEvent={this.props.logoutClickEvent}
         changeview={this.props.changeview}
+        subjectFilter={this.subjectFilter}
+        gradeFilter={this.gradeFilter}
+        brandFilter={this.brandFilter}
         />
         <div className="builder">{resourceBuilder}</div>
         <div className="resourceArea">

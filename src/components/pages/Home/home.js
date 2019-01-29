@@ -10,15 +10,6 @@ class Home extends React.Component {
     authed: true,
   }
 
-  changeView = (e) => {
-    return (
-    // const view = e.currentTarget.id;
-    // this.props.history.push(`/${view}`);
-    <Link to={'/childProfile'} />
-    );
-  }
-
-
   render() {
     return (
       <div className='mainHome' height='100%'>
@@ -28,10 +19,12 @@ class Home extends React.Component {
       />
         <div className='homePage d-flex justify-content-around'>
           <div className="profileBtn">
-          <a className='btn btn-light' id='childProfile' href={'/childProfile'}><i class="fas fa-plus-square fa-7x"></i><b>Create Child Profile</b></a>
+          <a className='btn btn-faded' id='childProfile' href={'/childProfile'}><i class="fas fa-plus-square fa-7x"></i><b></b></a>
+          <div><b><h2 className="buttonText">Create Child Profile</h2></b></div>
           </div>
           <div className="continueBtn">
-          <a className='btn btn-light' id='resources' href={'/resources'}><i class="fas fa-arrow-circle-right fa-7x"></i><b>Continue Without Profile</b></a>
+          <a className='btn btn-faded' id='resources' href={'/resources'}><i class="fas fa-arrow-circle-right fa-7x"></i></a>
+          <div><b><h2 className="buttonText"> Continue Without Profile </h2></b></div>
           </div>
         </div>
     </div>
