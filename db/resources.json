@@ -1,7 +1,7 @@
 {
 	"book1": {
 		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
-    "url": "https://www.amazon.com/Saxon-Math-Homeschool-Complete-Kit/dp/156577020Xcrid=1G5U851K5SHA0&keywords=saxon+math+3&qid=1547696536&sprefix=saxon+%2Caps%2C149&sr=8-1&ref=sr_1_1",
+    "url": "https://www.christianbook.com/saxon-student-workbook-cards-1st-edition/9780939798810/pd/83212?en=google&event=SHOP&kw=homeschool-20-40%7C83212&p=1179710&dv=c&gclid=EAIaIQobChMI1ISHpqaU4AIVkIrICh03HA02EAQYAiABEgJsZPD_BwE",
     "image":"https://g.christianbook.com/dg/slideshow/f400/20111_1_box_dp.jpg",
 		"title": "Saxon Math 3",
 		"quantity": "1",
@@ -20,17 +20,6 @@
 		"subject": "Math",
 		"grade": "Kindergarten",
 		"brand": "Horizons"
-	},
-	"book3": {
-		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
-    "url": "https://www.christianbook.com/lifepac-science-grade-11-workbook/9781580957816/pd/20813en=google&event=SHOP&kw=homeschool-6080%7C20813&p=1179710&dv=c&gclid=EAIaIQobChMI6oi5o_bz3wIVjY7ICh1FBAJkEAQYASABEgJ1pPD_BwE",
-    "image":"https://booksofthebible.com/stock/p6974d.jpg",
-		"title": "Alpha Omega Chemistry Grade 11",
-		"quantity": "1",
-		"description": "Grade 11 workbook set covers the concept of the introduction to chemistry, basic chemical units and gases and moles, as well as atomic models, chemical formulas and chemical reactions.",
-		"subject": "Science",
-		"grade": "High School",
-		"brand": "Alpha & Omega"
 	},
 	"book4": {
 		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
@@ -405,5 +394,203 @@
 		"subject": "Language Arts",
 		"grade": "Kindergarten",
 		"brand": "Horizons"
+	},
+	"book39": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.amazon.com/About-Ocean-Creatures-Fun-Schooling-Homeschooling/dp/1548305227/ref=asc_df_1548305227/?tag=hyprod-20&linkCode=df0&hvadid=312105353883&hvpos=1o3&hvnetw=g&hvrand=16627908556031020475&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9013191&hvtargid=pla-570167277303&psc=1",
+    "image":"https://images-na.ssl-images-amazon.com/images/I/51RHCJ9VaiL.jpg",
+		"title": "All About Ocean Creatures",
+		"quantity": "1",
+		"description": "Math, Reading, Art, Science & Spelling Games! This book is perfect for children who can read on a 2nd grade level or higher, and like sea creatures.",
+		"subject": "Science",
+		"grade": "Grades 1-3",
+		"brand": "CreateSpace"
+	},
+	"book41": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.curriculumexpress.com/product/1st-grade-science-complete-set-by-alpha-omega/?gclid=EAIaIQobChMI1qOYvKeU4AIVCYnICh2uugmfEAQYBCABEgJTjPD_BwE",
+    "image":"https://www.curriculumexpress.com/wp-content/uploads/2015/12/ist-grade-science.png",
+		"title": "1st Grade Science",
+		"quantity": "1",
+		"description": "Educate your children on the world of science with this exciting, hands-on set of workbooks while you gain instructions from the teacher guides included!",
+		"subject": "Science",
+		"grade": "Grades 1-3",
+		"brand": "Alpha & Omega"
+	},
+	"book42": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.curriculumexpress.com/product/2nd-grade-science-complete-set-by-alpha-omega/",
+    "image":"https://www.curriculumexpress.com/wp-content/uploads/2015/12/ist-grade-science.png",
+		"title": "2nd Grade Science",
+		"quantity": "1",
+		"description": "Educate your children on the world of science with this exciting, hands-on set of workbooks while you gain instructions from the teacher guides included!",
+		"subject": "Science",
+		"grade": "Grades 1-3",
+		"brand": "Alpha & Omega"
+	},
+	"book43": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.curriculumexpress.com/product/3rd-grade-science-complete-set-by-alpha-omega/",
+    "image":"https://www.curriculumexpress.com/wp-content/uploads/2016/01/science-set.jpg",
+		"title": "3rd Grade Science",
+		"quantity": "1",
+		"description": "Educate your children on the world of science with this exciting, hands-on set of workbooks while you gain instructions from the teacher guides included!",
+		"subject": "Science",
+		"grade": "Grades 1-3",
+		"brand": "Alpha & Omega"
+	},
+	"book44": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.curriculumexpress.com/product/4th-grade-science-complete-set-by-alpha-omega/",
+    "image":"https://www.curriculumexpress.com/wp-content/uploads/2016/01/science-set.jpg",
+		"title": "4th Grade Science",
+		"quantity": "1",
+		"description": "Educate your children on the world of science with this exciting, hands-on set of workbooks while you gain instructions from the teacher guides included!",
+		"subject": "Science",
+		"grade": "Grades 4-6",
+		"brand": "Alpha & Omega"
+	},
+	"book45": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.curriculumexpress.com/product/5th-grade-science-complete-set-by-alpha-omega/?gclid=EAIaIQobChMI8pTUhKeU4AIVEY_ICh097gBJEAQYAyABEgJ2MvD_BwE",
+    "image":"https://www.curriculumexpress.com/wp-content/uploads/2016/01/science-set.jpg",
+		"title": "5th Grade Science",
+		"quantity": "1",
+		"description": " Educate your children on the world of science with this exciting, hands-on set of workbooks while you gain instructions from the teacher guide included!",
+		"subject": "Science",
+		"grade": "Grades 4-6",
+		"brand": "Alpha & Omega"
+	},
+	"book46": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.curriculumexpress.com/product/6th-grade-science-10-unit-student-set-from-alpha-omega-publications/",
+    "image":"https://www.curriculumexpress.com/wp-content/uploads/2014/06/science-set.jpg",
+		"title": "6th Grade Science",
+		"quantity": "1",
+		"description": "These ten print-based consumables contain one full year of science lessons. Each worktext includes easy-to-follow instructions, self tests, and one removable teacher-administered test.",
+		"subject": "Science",
+		"grade": "Grades 4-6",
+		"brand": "Alpha & Omega"
+	},
+	"book47": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.curriculumexpress.com/product/7th-grade-general-science-i-complete-set-by-alpha-omega/",
+    "image":"https://www.curriculumexpress.com/wp-content/uploads/2014/06/science-WT.jpg",
+		"title": "7th Grade Science",
+		"quantity": "1",
+		"description": "Educate your children with the 7th Grade General Science I Complete Set by Alpha Omega that contains the exciting, hands-on set of workbooks and the teacher guide for you to teach with!",
+		"subject": "Science",
+		"grade": "Grades 7-8",
+		"brand": "Alpha & Omega"
+	},
+	"book48": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.curriculumexpress.com/product/general-science-ii-complete-set-from-alpha-omega-publications/",
+    "image":"https://www.curriculumexpress.com/wp-content/uploads/2016/02/p-2545-General_Science_II_Set.jpg",
+		"title": "8th Grade Science",
+		"quantity": "1",
+		"description": "In this book, your child will learn about the history of science, the structure of matter, health, energy, machines, and much more. Teacher’s guide included.",
+		"subject": "Science",
+		"grade": "Grades 7-8",
+		"brand": "Alpha & Omega"
+	},
+	"book49": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.curriculumexpress.com/product/select-astronomy-complete-set-from-alpha-omega-publications/",
+    "image":"https://www.curriculumexpress.com/wp-content/uploads/2014/06/astronomy.jpg",
+		"title": "Astronomy - Complete Set",
+		"quantity": "1",
+		"description": "Astronomy, Composition, Geography, Geology, Life of Christ, Life Science, and Mankind: Anthropology & Sociology. These one semester courses come with five worktexts and a teacher’s guide.",
+		"subject": "Science",
+		"grade": "High School",
+		"brand": "Alpha & Omega"
+	},
+	"book50": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.christianbook.com/lifepac-science-grade-11-workbook/9781580957816/pd/20813en=google&event=SHOP&kw=homeschool-6080%7C20813&p=1179710&dv=c&gclid=EAIaIQobChMI6oi5o_bz3wIVjY7ICh1FBAJkEAQYASABEgJ1pPD_BwE",
+    "image":"https://booksofthebible.com/stock/p6974d.jpg",
+		"title": "Alpha Omega Chemistry Grade 11",
+		"quantity": "1",
+		"description": "Grade 11 workbook set covers the concept of the introduction to chemistry, basic chemical units and gases and moles, as well as atomic models, chemical formulas and chemical reactions.",
+		"subject": "Science",
+		"grade": "High School",
+		"brand": "Alpha & Omega"
+	},
+	"book51": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "http://kumonbooks.com/book/pre-k-differentiation-copy/",
+    "image":"http://kumonbooks.com/wp-content/uploads/2016/08/9781941082539.jpg",
+		"title": "Same & Different",
+		"quantity": "1",
+		"description": "Our Kindergarten Same & Different Workbook strengthens critical thinking through matching, same-versus-different activities, and visual and thematic categorization.",
+		"subject": "Math",
+		"grade": "Kindergarten",
+		"brand": "Kumon"
+	},
+	"book52": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "http://kumonbooks.com/book/k-logic/",
+    "image":"http://kumonbooks.com/wp-content/uploads/2016/08/9781941082522.jpg",
+		"title": "Logic",
+		"quantity": "1",
+		"description": "Your child will fall in love with learning while making comparisons, completing patterns, determining real versus pretend, and drawing conclusions.",
+		"subject": "Math",
+		"grade": "Kindergarten",
+		"brand": "Kumon"
+	},
+	"book53": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "http://kumonbooks.com/book/k-spatial-reasoning/",
+    "image":"http://kumonbooks.com/wp-content/uploads/2016/08/9781941082515.jpg",
+		"title": "Spatial Reasoning",
+		"quantity": "1",
+		"description": "With our Kindergarten Spatial Reasoning Workbook, your child will develop fundamental skills for success in school and beyond.",
+		"subject": "Math",
+		"grade": "Kindergarten",
+		"brand": "Kumon"
+	},
+	"book54": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "http://kumonbooks.com/book/k-creativity/",
+    "image":"http://kumonbooks.com/wp-content/uploads/2016/08/9781941082546.jpg",
+		"title": "Creativity",
+		"quantity": "1",
+		"description": "Imaginations will soar, and learning will be fun as children progress through our unique drawing activities.",
+		"subject": "Art",
+		"grade": "Kindergarten",
+		"brand": "Kumon"
+	},
+	"book55": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "http://kumonbooks.com/book/amazing-mazes/",
+    "image":"http://kumonbooks.com/wp-content/uploads/2014/11/Amazing-Mazes-724x1024.jpg",
+		"title": "Amazing Mazes",
+		"quantity": "1",
+		"description": "This increased level of difficulty will refine children’s motor skills and further sharpen their reasoning and critical thinking skills.",
+		"subject": "Art",
+		"grade": "Kindergarten",
+		"brand": "Kumon"
+	},
+	"book56": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "http://kumonbooks.com/book/my-book-of-numbers-1-120/",
+    "image":"http://kumonbooks.com/wp-content/uploads/2014/12/My-Book-of-Numbers-1-120-722x1024.jpg",
+		"title": "My Book of Number 1-120",
+		"quantity": "1",
+		"description": " By practicing numbers in numerical order, such as 9-10 and 99-100, children gradually grasp the concept of decimal position.",
+		"subject": "Math",
+		"grade": "Kindergarten",
+		"brand": "Kumon"
+	},
+	"book57": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "http://kumonbooks.com/book/play-and-grow-coloring-drawing/",
+    "image":"http://kumonbooks.com/wp-content/uploads/2014/11/Play-and-Grow-Coloring-and-Drawing.jpg",
+		"title": "Coloring & Drawing",
+		"quantity": "1",
+		"description": "Let’s go on a coloring and drawing adventure! Your child will learn to control his or her first writing utensil, a crayon, through these fun coloring and drawing exercises.",
+		"subject": "Art",
+		"grade": "Kindergarten",
+		"brand": "Kumon"
 	}
 }
