@@ -3,7 +3,6 @@ import 'firebase/auth';
 import './resources.scss';
 import resourceRequests from '../../../helpers/data/resourceRequests';
 import authRequests from '../../../helpers/data/authRequests';
-import childRequests from '../../../helpers/data/childRequests';
 import Resource from '../Resource/resource';
 import MainNavbar from '../../MainNavbar/mainNavbar';
 
