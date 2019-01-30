@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import authRequests from '../../../helpers/data/authRequests';
 import './auth.scss';
 import googleButton from '../../../images/login-google.png';

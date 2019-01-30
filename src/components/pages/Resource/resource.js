@@ -8,7 +8,7 @@ class Resource extends React.Component {
       <div className="card">
         <div className="row">
         <div className="col-md-4 rounded">
-            <img src={this.props.image} className="img w-100 h-100"></img>
+            <img src={this.props.image} alt="" className="img w-100 h-100"></img>
             </div>
             <div className="col-md-8 p-3">
               <div className="details card-block px-3">
