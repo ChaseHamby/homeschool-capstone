@@ -4,9 +4,18 @@ import './childProfileForm.scss';
 import authRequests from '../../../helpers/data/authRequests';
 import childRequests from '../../../helpers/data/childRequests';
 
+const defaultChild = {
+  firstName: '',
+  lastName: '',
+  email: '',
+  age: 0,
+  grade: '',
+};
+
 class ChildProfileForm extends React.Component {
   state = {
     childId: '',
+    newChild: defaultChild,
   }
 
   addChildren = (e) => {
@@ -77,7 +86,7 @@ class ChildProfileForm extends React.Component {
                 
                 <div className="col-md-6">
                   <label htmlFor="grade"><h5>Child's Grade</h5></label>
-                    <input type="text" className="form-control" name="grade" id="grade" placeholder="kindergarten"></input>
+                    <input type="text" className="form-control" name="grade" id="grade" placeholder="Kindergarten"></input>
                 </div>
             </div>
             <div className="form-group-buttons">
