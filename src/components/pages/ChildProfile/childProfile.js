@@ -73,7 +73,7 @@ class ChildProfile extends React.Component {
         childId={this.state.childId}
         />
         </div>
-        <h1 className="d-flex justify-content-center px-3">Current Profiles</h1>
+        <h1 className="d-flex justify-content-center px-3 profiles">Current Profiles</h1>
         <div className="builder">{childBuilder}</div>
       </div>
     );
