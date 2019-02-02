@@ -62,28 +62,28 @@ class ChildProfileForm extends React.Component {
                 </div>
             </div>
             <div className="form-group d-flex justify-content-center">
-                
+
                 <div className="col-md-6">
                   <label htmlFor="last_name"><h5>Child's Last name</h5></label>
                     <input type="text" className="form-control" name="last_name" id="last_name" placeholder="last name"></input>
                 </div>
             </div>
             <div className="form-group d-flex justify-content-center">
-                
+
                 <div className="col-md-6">
                     <label htmlFor="email"><h5>Parent Email</h5></label>
                     <input type="email" className="form-control" name="email" id="email" placeholder="you@email.com"></input>
                 </div>
             </div>
             <div className="form-group d-flex justify-content-center">
-                
+
                 <div className="col-md-6">
                   <label htmlFor="age"><h5>Child's Age</h5></label>
                     <input type="text" className="form-control" name="age" id="age" placeholder="5"></input>
                 </div>
             </div>
             <div className="form-group d-flex justify-content-center">
-                
+
                 <div className="col-md-6">
                   <label htmlFor="grade"><h5>Child's Grade</h5></label>
                     <input type="text" className="form-control" name="grade" id="grade" placeholder="Kindergarten"></input>

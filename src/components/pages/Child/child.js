@@ -23,6 +23,7 @@ class Child extends React.Component {
       document.getElementById('email').value = this.props.email;
       document.getElementById('age').value = this.props.age;
       document.getElementById('grade').value = this.props.grade;
+      window.scrollTo(0, 125);
     };
 
     const showEditButton = () => {
@@ -33,6 +34,7 @@ class Child extends React.Component {
           </div>
         );
       }
+      return null;
     };
 
     const showDeleteButton = () => {
@@ -43,6 +45,7 @@ class Child extends React.Component {
         </div>
         );
       }
+      return null;
     };
 
     return (

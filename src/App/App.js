@@ -59,7 +59,7 @@ class App extends React.Component {
       authRequests.logoutUser();
       this.setState({ authed: false });
     };
-    
+
     if (pendingUser) {
       return null;
     }
@@ -70,11 +70,11 @@ class App extends React.Component {
           <React.Fragment>
             <div className="appContainer">
               <Switch>
-    <PrivateRoute path='/' exact component={() => <Home logoutClickEvent={logoutClickEvent} />} authed={this.state.authed} />
-                <PrivateRoute path='/home' component={() => <Home logoutClickEvent={logoutClickEvent} />} authed={this.state.authed} />
-                <PrivateRoute path='/childProfile' component={() => <ChildProfile logoutClickEvent={logoutClickEvent} />} authed={this.state.authed} />
+                <PrivateRoute path='/' exact component={() => <Home logoutClickEvent={logoutClickEvent} authed={this.state.authed} />} authed={this.state.authed} />
+                <PrivateRoute path='/home' component={() => <Home logoutClickEvent={logoutClickEvent} authed={this.state.authed} />} authed={this.state.authed} />
+                <PrivateRoute path='/childProfile' component={() => <ChildProfile logoutClickEvent={logoutClickEvent} authed={this.state.authed} />} authed={this.state.authed} />
                 <PrivateRoute path='/resources' component={() => <Resources logoutClickEvent={logoutClickEvent} />} authed={this.state.authed} />
-                <PublicRoute path='/auth' component={Auth} authed={this.state.authed} />
+                <PublicRoute path='/auth' component={() => <Auth authed={this.state.authed} />} authed={this.state.authed} />
               </Switch>
             </div>
           </React.Fragment>
