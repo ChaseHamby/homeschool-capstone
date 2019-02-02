@@ -10,6 +10,7 @@ class Child extends React.Component {
       childRequests.deleteChild(this.props.id)
         .then(() => {
           this.props.updateChildren();
+          alert('You have successfully deleted your profile');
         })
         .catch(err => console.error('error with single delete', err));
     };

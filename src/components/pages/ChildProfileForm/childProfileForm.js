@@ -77,7 +77,7 @@ class ChildProfileForm extends React.Component {
                 
                 <div className="col-md-6">
                   <label htmlFor="grade"><h5>Child's Grade</h5></label>
-                    <input type="text" className="form-control" name="grade" id="grade" placeholder="kindergarten"></input>
+                    <input type="text" className="form-control" name="grade" id="grade" placeholder="Kindergarten"></input>
                 </div>
             </div>
             <div className="form-group-buttons">

@@ -70,7 +70,7 @@ class App extends React.Component {
           <React.Fragment>
             <div className="appContainer">
               <Switch>
-                <PrivateRoute path='/' exact component={Home} authed={this.state.authed} />
+    <PrivateRoute path='/' exact component={() => <Home logoutClickEvent={logoutClickEvent} />} authed={this.state.authed} />
                 <PrivateRoute path='/home' component={() => <Home logoutClickEvent={logoutClickEvent} />} authed={this.state.authed} />
                 <PrivateRoute path='/childProfile' component={() => <ChildProfile logoutClickEvent={logoutClickEvent} />} authed={this.state.authed} />
                 <PrivateRoute path='/resources' component={() => <Resources logoutClickEvent={logoutClickEvent} />} authed={this.state.authed} />
