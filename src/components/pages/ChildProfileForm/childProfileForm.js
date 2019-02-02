@@ -4,9 +4,18 @@ import './childProfileForm.scss';
 import authRequests from '../../../helpers/data/authRequests';
 import childRequests from '../../../helpers/data/childRequests';
 
+const defaultChild = {
+  firstName: '',
+  lastName: '',
+  email: '',
+  age: 0,
+  grade: '',
+};
+
 class ChildProfileForm extends React.Component {
   state = {
     childId: '',
+    newChild: defaultChild,
   }
 
   addChildren = (e) => {

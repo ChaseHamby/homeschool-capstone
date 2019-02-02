@@ -15,7 +15,9 @@ class Auth extends React.Component {
   render() {
     return (
       <div className='Auth'>
-      <HomeNavbar />
+      <HomeNavbar
+      authed={this.props.authed}
+      />
         <button className='authBtn btn btn-danger' onClick={this.authenticateUser}>
           <img src={googleButton} alt="google login button"/>
         </button>
