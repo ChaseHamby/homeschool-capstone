@@ -1,6 +1,7 @@
 import React from 'react';
 import 'firebase/auth';
 import './childProfileForm.scss';
+import swal from 'sweetalert';
 import authRequests from '../../../helpers/data/authRequests';
 import childRequests from '../../../helpers/data/childRequests';
 
@@ -31,6 +32,8 @@ class ChildProfileForm extends React.Component {
     if (this.props.isEditing) {
       childRequests.updateChild(this.props.childId, newChild)
         .then(() => {
+          swal('You edited your profile!', '', 'success');
+          window.scroll(0, 800);
           this.props.displayChildren();
         })
         .catch(err => console.error('error in getting children', err));
