@@ -11,7 +11,6 @@ import ChildProfile from '../components/pages/ChildProfile/childProfile';
 import Resources from '../components/pages/Resources/resources';
 import authRequests from '../helpers/data/authRequests';
 import './App.scss';
-import Test from '../components/pages/test';
 
 const PublicRoute = ({ component: Component, authed, ...rest }) => {
   const routeChecker = props => (authed === false
@@ -75,8 +74,7 @@ class App extends React.Component {
                 <PrivateRoute path='/home' component={() => <Home logoutClickEvent={logoutClickEvent} />} authed={this.state.authed} />
                 <PrivateRoute path='/childProfile' component={() => <ChildProfile logoutClickEvent={logoutClickEvent} />} authed={this.state.authed} />
                 <PrivateRoute path='/resources' component={() => <Resources logoutClickEvent={logoutClickEvent} />} authed={this.state.authed} />
-                <PublicRoute path='/auth' component={Auth} authed={this.state.authed} test={this.state.test} />
-                <PublicRoute path='/test' component={Test} authed={this.state.authed} test={this.state.test} />
+                <PublicRoute path='/auth' component={Auth} authed={this.state.authed} />
               </Switch>
             </div>
           </React.Fragment>
