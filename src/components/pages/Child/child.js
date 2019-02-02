@@ -1,4 +1,5 @@
 import React from 'react';
+import swal from 'sweetalert';
 import authRequests from '../../../helpers/data/authRequests';
 import childRequests from '../../../helpers/data/childRequests';
 import './child.scss';
@@ -9,8 +10,8 @@ class Child extends React.Component {
     const deleteChild = (e) => {
       childRequests.deleteChild(this.props.id)
         .then(() => {
+          swal('You have deleted a profile!', '', 'success');
           this.props.updateChildren();
-          alert('You have successfully deleted your profile');
         })
         .catch(err => console.error('error with single delete', err));
     };
