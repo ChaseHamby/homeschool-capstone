@@ -1,8 +1,8 @@
 {
-	"book1": {
+	"book4": {
 		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
     "url": "https://www.christianbook.com/saxon-student-workbook-cards-1st-edition/9780939798810/pd/83212?en=google&event=SHOP&kw=homeschool-20-40%7C83212&p=1179710&dv=c&gclid=EAIaIQobChMI1ISHpqaU4AIVkIrICh03HA02EAQYAiABEgJsZPD_BwE",
-    "image":"https://g.christianbook.com/dg/slideshow/f400/20111_1_box_dp.jpg",
+    "image":"http://www.setonbooks.com/sempics/P-MA03-1K12338.jpg",
 		"title": "Saxon Math 3",
 		"quantity": "1",
 		"description": "This home study set includes a teacher's manual, a meeting book, and a student workbook with fact cards. Grade 3.",
@@ -21,7 +21,7 @@
 		"grade": "Kindergarten",
 		"brand": "Horizons"
 	},
-	"book4": {
+	"book1": {
 		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
     "url": "https://www.bookshark.com/level-5/language-arts/keys-to-good-language-5",
     "image":"http://www.phoenixlearningresources.com/resize/Shared/Images/Product/Keys-to-Good-Language-Grade-5-Workbook/Keys-5-NEW.png?bw=1000&w=1000&bh=1000&h=1000",
@@ -592,5 +592,71 @@
 		"subject": "Art",
 		"grade": "Kindergarten",
 		"brand": "Kumon"
+	},
+	"book58": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.sonlight.com/1M30.html",
+    "image":"https://www.sonlight.com/images/products/1M30-l.jpg",
+		"title": "Horizons Math 1",
+		"quantity": "1",
+		"description": "Using a spiral learning technique, children are first introduced to a concept and then asked to solve related and increasingly difficult problems over the course of several days or weeks.",
+		"subject": "Math",
+		"grade": "Grades 1-3",
+		"brand": "Horizons"
+	},
+	"book59": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.sonlight.com/2M30.html",
+    "image":"https://www.sonlight.com/images/products/2M30-l.jpg",
+		"title": "Horizons Math 2",
+		"quantity": "1",
+		"description": "Some of the topics include: Count to 100, Count by 1's from 100-999 / Learn multiplication facts 1-10 / Find temperature in Fahrenheit / Use coins and dollar bills in money calculations / Recognize and find area, perimeter, and volume",
+		"subject": "Math",
+		"grade": "Grades 1-3",
+		"brand": "Horizons"
+	},
+	"book60": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.sonlight.com/3M30.html",
+    "image":"https://www.sonlight.com/images/products/3M30-l.jpg",
+		"title": "Horizons Math 3",
+		"quantity": "1",
+		"description": "Some of the topics include: Word numbers up to 1,000,000 / Parentheses / Distributive property / Positive and negative numbers / Division facts 1-10 / Advanced multiplication.",
+		"subject": "Math",
+		"grade": "Grades 1-3",
+		"brand": "Horizons"
+	},
+	"book61": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.sonlight.com/4M30.html",
+    "image":"https://www.sonlight.com/images/products/4M30-l.jpg",
+		"title": "Horizons Math 4",
+		"quantity": "1",
+		"description": "Some of the topics include: Multiply 2-digit times 2-digit with carrying / Divide with 2-digit divisor and quotient/ Add and subtract with unlike fractions / Equations and pre-algebra concepts and more",
+		"subject": "Math",
+		"grade": "Grades 4-6",
+		"brand": "Horizons"
+	},
+	"book62": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.sonlight.com/5M30.html",
+    "image":"https://www.sonlight.com/images/products/5M30-l.jpg",
+		"title": "Horizons Math 5",
+		"quantity": "1",
+		"description": "Some of the topics include: Write simple ratios / Add and subtract fractions with uncommon denominators / Use a compass and protractor / Calculate probability with one variable / Understand percentages",
+		"subject": "Math",
+		"grade": "Grades 4-6",
+		"brand": "Horizons"
+	},
+	"book63": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "https://www.sonlight.com/6M30.html",
+    "image":"https://www.sonlight.com/images/products/6M30-l.jpg",
+		"title": "Horizons Math 6",
+		"quantity": "1",
+		"description": "Some of the topics include: Geometric construction of angles, triangles, squares, and other shapes / Integers / Addition and subtraction with 2, 3, 4, 5, and 6 digits / More challenging problem solving",
+		"subject": "Math",
+		"grade": "Grades 4-6",
+		"brand": "Horizons"
 	}
 }

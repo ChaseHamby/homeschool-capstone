@@ -47,7 +47,7 @@ class Child extends React.Component {
     return (
       <div className="container py-3">
       <div className="card">
-        <div className="d-flex justify-content-center">
+        <div className="testing d-flex justify-content-center">
             <div className="col-md-8 p-3">
               <div className="card-block px-3">
                 <h2 className="card-title">{this.props.firstName} {this.props.lastName}</h2>

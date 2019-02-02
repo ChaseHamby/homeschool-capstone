@@ -7,12 +7,10 @@ import {
 import connection from '../helpers/data/connection';
 import Auth from '../components/pages/Auth/auth';
 import Home from '../components/pages/Home/home';
-// import HomeNavbar from '../components/HomeNavbar/homeNavbar';
 import ChildProfile from '../components/pages/ChildProfile/childProfile';
 import Resources from '../components/pages/Resources/resources';
 import authRequests from '../helpers/data/authRequests';
 import './App.scss';
-// import 'bootstrap/dist/css/bootstrap.min.css';
 import Test from '../components/pages/test';
 
 const PublicRoute = ({ component: Component, authed, ...rest }) => {
