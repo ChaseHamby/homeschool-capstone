@@ -4,7 +4,7 @@ Homeschool App is my front end capstone project at NSS. It is an app that allows
 
 Users can sign in via Google authentication, and then use the interface to look through different books. They are able to filter the books based on subject, grade, and brand. Users can also create profiles for their children. They can come back and edit or delete the profiles at any time.
 
-[Check out the deployed site here.] (https://homeschool-capstone.firebaseapp.com)
+Check out the deployed site here: https://homeschool-capstone.firebaseapp.com
 
 ## Screenshots
 
