@@ -1,3 +1,4 @@
+
 # Homeschool App
 Homeschool App is my front end capstone project at NSS. It is an app that allows parents to create profiles for their children and browse through homeschool curriculum.
 
@@ -33,5 +34,5 @@ Note: To run this app you will need a firebase account and a new project.
 • Click on Resources, and the import the `resources.json` file. Repeat this step for the `child.json`.
 
 ## 2. Serve up the app
-Run `npm start` to launch the app
-Open http://localhost:3000 to view it in the browser.
+Run `npm start` to start the app
+Open`http://localhost:3000` to view it in the browser.
