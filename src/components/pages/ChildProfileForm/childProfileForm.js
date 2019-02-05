@@ -1,22 +1,26 @@
 import React from 'react';
+import swal from 'sweetalert';
+// import { storage } from '../../../../node_modules/firebase';
+// import firebase from '../../../../node_modules/firebase';
 import 'firebase/auth';
 import './childProfileForm.scss';
-import swal from 'sweetalert';
 import authRequests from '../../../helpers/data/authRequests';
 import childRequests from '../../../helpers/data/childRequests';
 
-const defaultChild = {
-  firstName: '',
-  lastName: '',
-  email: '',
-  age: 0,
-  grade: '',
-};
+// const defaultChild = {
+//   firstName: '',
+//   lastName: '',
+//   email: '',
+//   age: 0,
+//   grade: '',
+// };
 
 class ChildProfileForm extends React.Component {
   state = {
     childId: '',
-    newChild: defaultChild,
+    // image: null,
+    // url: '',
+    // newChild: defaultChild,
   }
 
   addChildren = (e) => {
@@ -40,11 +44,46 @@ class ChildProfileForm extends React.Component {
     } else {
       childRequests.postRequest(newChild)
         .then(() => {
+          swal('You successfully added a profile', '', 'success');
+          window.scroll(0, 800);
           this.props.displayChildren();
         })
         .catch(err => console.error('err posting article', err));
     }
   };
+
+  // Commented out code below being used for image upload to Firebase storage
+
+  // handleChange = (e) => {
+  //   if (e.target.files[0]) {
+  //     const image = e.target.files[0];
+  //     this.setState({ image });
+  //   }
+  // }
+
+  // handleUpload = () => {
+  //   const { image } = this.state;
+  //   const uploadTask = storage.ref(`images/${image.name}`).put(image);
+  //   uploadTask.on('state_changed',
+  //     (snapshot) => {
+  //     // progrss function ....
+  //       const progress = Math.round((snapshot.bytesTransferred / snapshot.totalBytes) * 100);
+  //       this.setState({ progress });
+  //     },
+  //     (error) => {
+  //     // error function ....
+  //       console.log(error);
+  //     },
+  //     () => {
+  //     // complete function ....
+  //       storage.ref('images').child(image.name).getDownloadURL()
+  //         .then((url) => {
+  //           console.log(url);
+  //           this.setState({ url });
+  //         });
+  //     });
+  // }
+
 
   formTitle = () => {
     if (this.props.isEditing) {
@@ -52,7 +91,6 @@ class ChildProfileForm extends React.Component {
     }
     return 'Create Profile';
   }
-
 
   render() {
     return (
@@ -92,6 +130,14 @@ class ChildProfileForm extends React.Component {
                     <input type="text" className="form-control" name="grade" id="grade" placeholder="Kindergarten"></input>
                 </div>
             </div>
+
+            {/* Commented out for now - code below used for firebase storage upload */}
+
+            {/* <div id="filesubmit" className="form-group d-flex justify-content-center">
+              <input type="file" class="file-select" onChange={this.handleChange} accept="image/*"/>
+              <button class="file-submit" onClick={this.handleUpload}>SUBMIT</button>
+            </div> */}
+
             <div className="form-group-buttons">
                   <div className="col-md-12">
                       <button className="btn btn-lg btn-success pull-right mr-1" type="submit" onClick={this.addChildren}><i className="glyphicon glyphicon-ok-sign"></i> Save Profile</button>
