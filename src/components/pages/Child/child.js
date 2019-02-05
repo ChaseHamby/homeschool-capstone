@@ -31,7 +31,7 @@ class Child extends React.Component {
       if (this.props.uid === myUid) {
         return (
           <div>
-            <button className="editButton" onClick={editChild}><i className="fas fa-marker fa-2x"></i></button>
+            <button className="editButton btn" onClick={editChild}><i className="fas fa-marker fa-2x"></i></button>
           </div>
         );
       }
@@ -42,7 +42,7 @@ class Child extends React.Component {
       if (this.props.uid === myUid) {
         return (
           <div>
-          <button className="trash" onClick={deleteChild}><i className="far fa-trash-alt fa-2x"></i></button>
+          <button className="trash btn" onClick={deleteChild}><i className="far fa-trash-alt fa-2x"></i></button>
         </div>
         );
       }
@@ -53,8 +53,8 @@ class Child extends React.Component {
       <div className="container py-3">
       <div className="card">
         <div className="testing d-flex justify-content-center">
-            <div className="col-md-8 p-3">
-              <div className="card-block px-3">
+            <div className="col-md-10 p-3">
+              <div className="childDetails card-block px-3">
                 <h2 className="card-title">{this.props.firstName} {this.props.lastName}</h2>
                 <p className="card-text">{this.props.email}</p>
                 <p className="card-text"><b>Age: {this.props.age}</b></p>
@@ -62,7 +62,7 @@ class Child extends React.Component {
                 <div className="datButtonz d-flex justify-content-around row datButtonz">
                 <div className="d-flex justify-content-center">{showEditButton()}</div>
                 <div className="d-flex justify-content-center">{showDeleteButton()}</div>
-                <a className="d-flex justify-content-center select" id='resources' href={'/resources'}><i className="fas fa-check-circle fa-2x"></i></a>
+                <a className="btn d-flex justify-content-center select" id='resources' href={'/resources'}><i className="fas fa-check-circle fa-2x"></i></a>
                 </div>
               </div>
             </div>
