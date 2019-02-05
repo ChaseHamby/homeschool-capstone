@@ -658,5 +658,38 @@
 		"subject": "Math",
 		"grade": "Grades 4-6",
 		"brand": "Horizons"
+	},
+	"book64": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "http://horrible-histories.co.uk/9781407178509/savage-stone-age",
+    "image":"http://images.scholastic.co.uk/assets/a/05/e4/176463-ml-1646612.jpg",
+		"title": "Horrible Histories - Savage Stone Age",
+		"quantity": "1",
+		"description": "Readers can discover all the facts about the SAVAGE STONE AGE such as what they used instead of toilet paper, why a hole in the skull is good for headaches and how to make a Stone Age mummy.",
+		"subject": "History",
+		"grade": "Grades 7-8",
+		"brand": "Horrible Histories"
+	},
+	"book65": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "http://horrible-histories.co.uk/9781407178455/frightful-first-world-war",
+    "image":"http://images.scholastic.co.uk/assets/a/29/8e/176456-ml-1641081.jpg",
+		"title": "Horrible Histories - Frightful First World War",
+		"quantity": "1",
+		"description": "FRIGHTFUL FIRST WORLD WAR Readers can discover all the foul facts, including what the 'Fat King' did with dead horses, how sniffing your own pee could save your life in a gas attack and why a pair of old socks gave away top German secrets.",
+		"subject": "History",
+		"grade": "Grades 7-8",
+		"brand": "Horrible Histories"
+	},
+	"book66": {
+		"uid": "NstpVYpMK9XYGXpeVEOklom9Hdt1",
+    "url": "http://horrible-histories.co.uk/9781407178561/woeful-second-world-war",
+    "image":"http://images.scholastic.co.uk/assets/a/4f/da/176459-ml-1641110.jpg",
+		"title": "Horrible Histories - Woeful Second World War",
+		"quantity": "1",
+		"description": "Readers can discover all the foul facts about the WOEFUL SECOND WORLD WAR, including why the blitzed Brits ate chicken-fruit, sinkers and nutty, what really happened in Dad's Army and how to make a rude noise with a gas mask.",
+		"subject": "History",
+		"grade": "Grades 7-8",
+		"brand": "Horrible Histories"
 	}
 }
