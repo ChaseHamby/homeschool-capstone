@@ -9,16 +9,15 @@ Check out the deployed site here: https://homeschool-capstone.firebaseapp.com
 ## Screenshots
 
 ## Technologies Used
-React
-Sass
-Axios
-Firebase
-Create-React-App
-Reactstrap
-Bootstrap
-Prop-Types
-Sweet Alerts
-Font Awesome
+* React
+* Sass
+* Axios
+* Firebase
+* Create-React-App
+* Reactstrap
+* Bootstrap
+* Sweet Alerts
+* Font Awesome
 
 ## How to run this app
 Note: To run this app you will need a firebase account and a new project.
