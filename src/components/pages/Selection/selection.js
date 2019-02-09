@@ -1,18 +1,22 @@
 import React from 'react';
-import './resource.scss';
+import './selection.scss';
+import swal from 'sweetalert';
 import selectionRequests from '../../../helpers/data/selectionRequests';
 
-class Resource extends React.Component {
+class Selection extends React.Component {
   state = {
     selections: [],
     resources: [],
   }
 
-  // addBooks = (selections) => {
-  //   this.setState({ selections });
-  //   // const newSelection = e.currentTarget.id;
-  //   console.log(selections);
-  // }
+  deleteSelection = (e) => {
+    selectionRequests.deleteSelection(this.props.id)
+      .then(() => {
+        swal('You have deleted this selection!', '', 'warning');
+        this.props.updateSelections();
+      })
+      .catch(err => console.error('error with single delete', err));
+  };
 
   render() {
     return (
@@ -30,7 +34,7 @@ class Resource extends React.Component {
                 <p className="card-text"><b>Grade: {this.props.grade}</b></p>
                 <p className="card-text"><b>Brand: {this.props.brand}</b></p>
                 <a href={this.props.url} className="thisBtn btn btn-primary">Learn More</a>
-                {/* <button className="addButton btn btn-danger" onClick={this.addBooks}>Add</button> */}
+                <button className="deleteButton btn btn-danger" onClick={this.deleteSelection}>Delete</button>
               </div>
             </div>
           </div>
@@ -40,4 +44,4 @@ class Resource extends React.Component {
   }
 }
 
-export default Resource;
+export default Selection;

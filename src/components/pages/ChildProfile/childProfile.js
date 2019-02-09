@@ -27,10 +27,6 @@ class ChildProfile extends React.Component {
     this.setState({ isEditing: true, childId: currentId });
   }
 
-  // noLongerEditing = (currentId) => {
-  //   this.setState({ isEditing: false, chidlId: currentId });
-  // }
-
   updateChildren = () => {
     this.displayChildren();
   }
