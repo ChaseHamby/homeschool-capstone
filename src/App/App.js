@@ -7,6 +7,7 @@ import {
 import connection from '../helpers/data/connection';
 import Auth from '../components/pages/Auth/auth';
 import Home from '../components/pages/Home/home';
+import SelectedProfile from '../components/pages/SelectedProfile/selectedProfile';
 import ChildProfile from '../components/pages/ChildProfile/childProfile';
 import Resources from '../components/pages/Resources/resources';
 import authRequests from '../helpers/data/authRequests';
@@ -74,6 +75,7 @@ class App extends React.Component {
                 <PrivateRoute path='/home' component={() => <Home logoutClickEvent={logoutClickEvent} authed={this.state.authed} />} authed={this.state.authed} />
                 <PrivateRoute path='/childProfile' component={() => <ChildProfile logoutClickEvent={logoutClickEvent} authed={this.state.authed} />} authed={this.state.authed} />
                 <PrivateRoute path='/resources' component={() => <Resources logoutClickEvent={logoutClickEvent} />} authed={this.state.authed} />
+                <PrivateRoute path='/selectedProfile' component={() => <SelectedProfile logoutClickEvent={logoutClickEvent} authed={this.state.authed} />} authed={this.state.authed} />
                 <PublicRoute path='/auth' component={() => <Auth authed={this.state.authed} />} authed={this.state.authed} />
               </Switch>
             </div>
