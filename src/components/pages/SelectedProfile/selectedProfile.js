@@ -61,6 +61,9 @@ class SelectedProfile extends React.Component {
         logoutClickEvent={this.props.logoutClickEvent}
         />
         <div>
+          <a className="backToProfiles btn btn-warning" id="backProfile" href={'/childProfile'}>Back to Profiles</a>
+        </div>
+        <div>
         {selectionBuilder}
         </div>
       </div>
