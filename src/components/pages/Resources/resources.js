@@ -1,14 +1,17 @@
 import React from 'react';
 import 'firebase/auth';
 import './resources.scss';
+import swal from 'sweetalert';
 import resourceRequests from '../../../helpers/data/resourceRequests';
 import authRequests from '../../../helpers/data/authRequests';
 import Resource from '../Resource/resource';
 import MainNavbar from '../../MainNavbar/mainNavbar';
+import selectionRequests from '../../../helpers/data/selectionRequests';
 
 class Resources extends React.Component {
   state = {
     resources: [],
+    selections: [],
   }
 
   displayResources = () => {
@@ -50,6 +53,27 @@ class Resources extends React.Component {
     this.displayResources();
   }
 
+  addBooks = (id) => {
+    const uid = authRequests.getCurrentUid();
+    console.log(uid, id);
+    resourceRequests.getSingleResource(id, uid)
+      .then((response) => {
+        console.log(response.data);
+        selectionRequests.postRequest({
+          url: response.data.url,
+          title: response.data.title,
+          subject: response.data.subject,
+          image: response.data.image,
+          quantity: response.data.quantity,
+          grade: response.data.grade,
+          description: response.data.description,
+          brand: response.data.brand,
+        });
+        swal('You added a book to your profile!', '', 'success');
+      })
+      .catch(err => console.error('error getting data', err));
+  }
+
   componentDidMount() {
     this.displayResources();
   }
@@ -69,6 +93,7 @@ class Resources extends React.Component {
         subject={resource.subject}
         url={resource.url}
         updateResources={resource.updateResources}
+        addBooks={this.addBooks}
       />);
     });
     return (

@@ -26,9 +26,12 @@ const postRequest = newSelection => axios.post(`${firebaseUrl}/selections.json`,
 
 const getSingleSelection = selectionId => axios.get(`${firebaseUrl}/selections/${selectionId}.json`);
 
+const patchRequest = selectionId => axios.patch(`${firebaseUrl}/selections/${selectionId}.json`);
+
 export default {
   getAllSelections,
   deleteSelection,
   postRequest,
   getSingleSelection,
+  patchRequest,
 };

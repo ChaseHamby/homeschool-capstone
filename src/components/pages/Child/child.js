@@ -60,9 +60,10 @@ class Child extends React.Component {
                 <p className="card-text"><b>Age: {this.props.age}</b></p>
                 <p className="card-text"><b>Grade: {this.props.grade}</b></p>
                 <div className="datButtonz d-flex justify-content-around row datButtonz">
-                <div className="d-flex justify-content-center">{showEditButton()}</div>
-                <div className="d-flex justify-content-center">{showDeleteButton()}</div>
-                <a className="btn d-flex justify-content-center select" id='resources' href={'/resources'}><i className="fas fa-check-circle fa-2x"></i></a>
+                <div className="d-flex justify-content-center" title="Edit Profile">{showEditButton()}</div>
+                <div className="d-flex justify-content-center" title="Delete Profile">{showDeleteButton()}</div>
+                <a className="btn d-flex justify-content-center select" id='resources' href={'/resources'} title="Select Profile"><i className="fas fa-check-circle fa-2x"></i></a>
+                <a className="btn d-flex justify-content-center select" id='selectedProfile' href={'/selectedProfile'} title="View My Books"><i className="fas fa-book fa-2x"></i></a>
                 </div>
               </div>
             </div>
