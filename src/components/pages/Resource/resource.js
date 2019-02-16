@@ -5,35 +5,6 @@ import authRequests from '../../../helpers/data/authRequests';
 import resourceRequests from '../../../helpers/data/resourceRequests';
 
 class Resource extends React.Component {
-  state = {
-    selections: [],
-    resources: [],
-  }
-
-  // addBooks = () => {
-  //   const uid = authRequests.getCurrentUid();
-  //   // resourceRequests.getAllResources(resource);
-  //   selectionRequests.postRequest(uid)
-  //     .then(() => {
-  //     })
-  //     .catch(err => console.error('error getting data', err));
-  //   // console.log(selection);
-  // }
-
-  // addBooks = () => {
-  //   console.log(resourceId)
-  //   // const selection = this.state.resources.map(resource).push(newSelection)
-  //   // resourceRequests.getSingleResource(newSelection)
-  //   // selectionRequests.postRequest(newSelection)
-  //     .then((selections) => {
-  //       console.log(newSelection);
-  //       // selectionRequests.postRequest(newSelection);
-  //       // this.displayResources();
-  //       // this.setState({ selections: data });
-  //     })
-  //     .catch(err => console.error('error getting data', err));
-  // }
-
   render() {
     return (
       <div className="container py-3">

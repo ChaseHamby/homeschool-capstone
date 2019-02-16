@@ -45,7 +45,7 @@ class ChildProfileForm extends React.Component {
       childRequests.postRequest(newChild)
         .then(() => {
           swal('You successfully added a profile', '', 'success');
-          window.scroll(0, 800);
+          window.scroll(0, 1000);
           this.props.displayChildren();
         })
         .catch(err => console.error('err posting article', err));

@@ -32,11 +32,6 @@ class SelectedProfile extends React.Component {
     this.displaySelections();
   }
 
-  // changeView = (e) => {
-  //   const view = e.currentTarget.id;
-  //   this.props.history.push(`/${view}`);
-  // }
-
   render() {
     const selectionBuilder = this.state.selections.map((selection) => {
       return (<Selection
@@ -61,7 +56,7 @@ class SelectedProfile extends React.Component {
         logoutClickEvent={this.props.logoutClickEvent}
         />
         <div>
-          <a className="backToProfiles btn btn-warning" id="backProfile" href={'/childProfile'}>Back to Profiles</a>
+          <a className="backToProfiles btn btn-primary" id="backProfile" href={'/childProfile'}>Back to Profiles</a>
         </div>
         <div>
         {selectionBuilder}
