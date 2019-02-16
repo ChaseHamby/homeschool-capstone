@@ -44,6 +44,7 @@ class MainNavbar extends React.Component {
         return (
           <Nav className="ml-auto" navbar>
           <a className="viewProfiles btn btn-warning" id="childProfile" href={'/childProfile'}>View Profiles</a>
+          <a className="bookProfile btn btn-danger" id="bookProfile" href={'/selectedProfile'}>View My Books</a>
           <UncontrolledDropdown>
             <DropdownToggle caret>
             Shop By Subject
