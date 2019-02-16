@@ -29,6 +29,12 @@ Check out the deployed site here: https://homeschool-capstone.firebaseapp.com
 ### Resources cards
 ![screen shot 2019-02-05 at 4 26 50 pm](https://user-images.githubusercontent.com/16019344/52311330-3c83fb00-296c-11e9-8751-58d8f03cc0a2.png)
 
+### Selected Profile page
+<img width="1440" alt="screen shot 2019-02-15 at 10 36 39 pm" src="https://user-images.githubusercontent.com/16019344/52894624-42e75380-3172-11e9-9788-100c1e28a495.png">
+
+### Alert that book was added to profile
+<img width="1198" alt="screen shot 2019-02-15 at 10 36 52 pm" src="https://user-images.githubusercontent.com/16019344/52894625-4aa6f800-3172-11e9-9eeb-8e2f8fb456d9.png">
+
 ## Technologies Used
 * React
 * Sass
