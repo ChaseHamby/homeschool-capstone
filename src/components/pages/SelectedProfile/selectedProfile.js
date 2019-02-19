@@ -57,6 +57,7 @@ class SelectedProfile extends React.Component {
         />
         <div>
           <a className="backToProfiles btn btn-primary" id="backProfile" href={'/childProfile'}>Back to Profiles</a>
+          <a className="backToBooks btn btn-warning" id="backBooks" href={'/resources'}>Back to Books</a>
         </div>
         <div>
         {selectionBuilder}
